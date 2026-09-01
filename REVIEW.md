@@ -38,7 +38,19 @@ The artifact's target diagram is correct. Its FEN places the queen on c7, bishop
 6. **Bowdler wording:** `...c4` restricts the bishop but does not literally trap it; `Ba4` remains legal.
 7. **Evaluation language:** “near-decisive” became “clear practical advantage,” and other absolute claims were softened where the position still required work.
 8. **Flexible bishop:** corrected the reconstructed guide's reference from the c8-bishop to the f8-bishop. Keeping the d-pawn home preserves the f8-bishop's diagonal through e7 and d6, matching Aman's explanation.
-9. **Visual instruction:** the initial reconstructed guide had no boards, while the Stonewall and French guides each had seven. The Taimanov guide now has 12 Black-oriented SVG diagrams covering the system, both c6 recapture structures, English Attack, `...Ne5-c4`, Maroczy tactic, Bowdler clamp, Alapin, declined Morra, f4, and Nb3 systems. Claude's four diagrams informed the selection, but inaccurate captions and under-specified positions were not copied.
+9. **Visual instruction:** the initial reconstructed guide had no boards, while the Stonewall and French guides each had seven. The Taimanov guide now has 13 Black-oriented SVG diagrams covering the system, both c6 recapture structures, English Attack, the `e5`/`...b4` counter-threat, `...Ne5-c4`, Maroczy tactic, Bowdler restriction, Alapin, declined Morra, f4, and Nb3 systems. Claude's four diagrams informed the selection, but inaccurate captions and under-specified positions were not copied.
+
+## Full transcript editorial audit
+
+The guide, source index, and annotated PGN were subsequently checked again against all 20 episode transcripts. That pass made the teaching order closer to the series:
+
+- The guide now asks the reader to identify the first branch before playing the setup: normal `d4`, `c3`, `c4`, `Bc4`, or a Closed Sicilian.
+- The repeated `e5` rule is explicit: before `...Nf6`, the knight needs a useful square; `...d6` provides d7, while a return to g8 usually signals a bad move order.
+- The English Attack section distinguishes Aman's proactive `...h5` before `g4` from the separate `...h6` idea after `g4`.
+- The c6 recapture section uses Aman's simple defaults, then lists the concrete exceptions rather than presenting a rigid decision tree.
+- Short phrases from the series—"where the pieces go," "pawns first," "perfect pivot square," and "stick to the setup"—replace more generic explanatory language.
+- Unsupported or overly broad practical advice was removed, and the prose and PGN comments were rewritten in simpler language.
+- The source index is grouped by decision and includes the newly surfaced teaching moments.
 
 ## Validation
 
@@ -46,6 +58,6 @@ The artifact's target diagram is correct. Its FEN places the queen on c7, bishop
 - Every Black move was checked with Stockfish 18 as a tactical guardrail.
 - After correction, no retained Black move scored more than one pawn worse than the engine's first choice at the review search limit.
 - Several practical repertoire choices remain outside the engine's first choice. They were retained when they reflected the speedrun's teaching and stayed playable.
-- All 12 guide diagrams are generated from legal SAN sequences or the validated target-position FEN. Their provenance is recorded in the source index, and the rendering script rejects invalid boards.
+- All 13 guide diagrams are generated from legal SAN sequences or the validated target-position FEN. Their provenance is recorded in the source index, and the rendering script rejects invalid boards.
 
 Engine analysis is deliberately subordinate to the source material. Its role here is to catch tactical contradictions, not to replace Aman's repertoire with computer moves.
