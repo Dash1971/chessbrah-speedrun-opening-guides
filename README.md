@@ -9,20 +9,24 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 - [The Stonewall Playbook](guides/stonewall.md)
 - [The French Defense Playbook](guides/french-defense.md)
 - [The Taimanov, as Aman Hambleton Plays It](guides/taimanov-sicilian.md)
+- [The Queen's Gambit, as Aman Hambleton Plays It](guides/queens-gambit.md)
 
 ## Study material
 
 - [Annotated Taimanov repertoire PGN](pgn/taimanov-sicilian-repertoire.pgn)
 - [Taimanov speedrun source index](sources/taimanov-speedrun.md)
+- [Annotated Queen's Gambit repertoire PGN](pgn/queens-gambit-repertoire.pgn)
+- [Queen's Gambit speedrun source index](sources/queens-gambit-speedrun.md)
 - [Review notes for the contributed Taimanov draft](REVIEW.md)
 
-The Taimanov guide includes 12 annotated board diagrams, all oriented from Black's side. They cover the core setup, recapture decisions, main attacking structures, and the most important anti-Sicilian deviations. The SVGs are built from validated FENs or legal SAN sequences by [`scripts/render_taimanov_diagrams.py`](scripts/render_taimanov_diagrams.py).
+The Taimanov guide includes 12 annotated board diagrams, all oriented from Black's side. The Queen's Gambit guide adds 15 White-oriented boards covering its major structures and deviations. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
 
 To regenerate them:
 
 ```sh
 python3 -m pip install -r scripts/requirements.txt
 python3 scripts/render_taimanov_diagrams.py
+python3 scripts/render_queens_gambit_diagrams.py
 ```
 
 ## Method
