@@ -11,7 +11,7 @@ All boards are shown from Black's side, matching Aman's point of view in the spe
 ### Guide map
 
 - **Build the system:** [core setup](#1-the-core-system), [d4 exchanges](#2-when-to-exchange-on-d4), and [c6 recaptures](#3-the-c6-recapture-decision)
-- **Play the main structures:** [short castling](#4-white-castles-short-build-on-the-queenside), [English Attack](#5-the-english-attack-be3-qd2-f3-and-long-castling), [quiet development](#6-quiet-be2-and-bd3-setups), and [bxc6](#7-the-bxc6-structure)
+- **Play the main structures:** [short castling](#4-white-castles-short-build-on-the-queenside), [English Attack](#5-the-english-attack-be3-qd2-f3-and-long-castling), the [`e5`/`...b4` counter-threat](#the-e5-counter-threat-b4), [quiet development](#6-quiet-be2-and-bd3-setups), and [bxc6](#7-the-bxc6-structure)
 - **Handle deviations:** [Maroczy](#8-the-maroczy-bind-with-5c4), [Bowdler](#9-the-bowdler-attack-with-3bc4), [Alapin](#10-the-alapin-with-2c3), [other sidelines](#11-smith-morra-early-c4-and-f4-systems), and [Nb3/b3](#12-nb3-and-b3bb2-systems)
 - **Convert the position:** [recurring themes](#13-recurring-tactical-and-positional-themes), [endgames](#14-structures-and-endgames), [practical play](#15-practical-play), and the [final checklist](#16-practical-checklist)
 
@@ -119,6 +119,24 @@ Be suspicious of `...Bxa3`. Check both knight captures on b5 before grabbing the
   <img src="assets/taimanov/diagram-05-english-attack.svg" alt="English Attack position after Black has played b4 against the c3 knight" width="480"/>
   <p><strong>The English Attack race after 12...b4.</strong> The immediate question is the c3-knight: <code>...bxc3</code> can damage the shelter around White's king. Black's follow-up route is <code>...a5-a4-a3</code>. The diagram makes the priority clear—open lines against the king before spending time on decorative moves.</p>
 </div>
+
+### The `e5` counter-threat: `...b4!`
+
+In the KNeres post-game analysis, Aman isolates one of the Taimanov's most important tactical move-order ideas. White has castled queenside, Black has a pawn on b5, and `e5` attacks the f6-knight. Do not assume that the knight must move immediately. First check whether `...b4` creates the stronger threat.
+
+The mechanism is:
+
+1. `e5` attacks the f6-knight.
+2. `...b4!` counterattacks the c3-knight instead of answering White's threat.
+3. If the c3-knight moves, it stops controlling d5, so Black's f6-knight can often land on the excellent d5-square.
+4. If White continues with `exf6`, `...bxc3` attacks the queen on d2. White cannot casually continue capturing: `...cxd2+` would take the queen with check. A typical safe resolution is `Qxc3 Qxc3 bxc3 Bxf6`, leaving Black with comfortable play.
+
+<div>
+  <img src="assets/taimanov/diagram-13-e5-b4-counter-threat.svg" alt="Taimanov position where e5 attacks the f6-knight and Black counters with b4 against the c3-knight" width="480"/>
+  <p><strong>After 11.e5: counterattack before retreating.</strong> White's red arrow is the threat <code>e5xf6</code>. Black replies <code>...b4!</code>, attacking the c3-knight and loosening its control of d5. The blue route shows the reward: once c3 is cleared, the f6-knight can often reach d5 instead of retreating. This is the position Aman used to teach the motif.</p>
+</div>
+
+The geometry matters. `...b4` itself is not check, and the idea is not an automatic answer to every `e5`. It works here because White's king is still on c1, the queen is on d2, the knight is on c3, and Black's b-pawn is ready on b5. If the king has moved to b1 or any of those pieces occupy different squares, recalculate the line rather than repeating the pattern by memory.
 
 ## 6. Quiet Be2 and Bd3 setups
 
@@ -323,11 +341,12 @@ One recurring model is a strong bishop plus the `d7/e6` wall, followed by `...f6
 Before each move, ask:
 
 1. Can White play `e5` or `Nd5` immediately?
-2. If White takes on c6, which recapture preserves the position without allowing a tactic?
-3. Has White castled, and which wing should I develop first?
-4. Is `...b5` still possible, or has c4 changed the opening?
-5. Does `...Ne5-c4` hit something concrete?
-6. Am I preserving the dark-squared bishop in the structures where it matters?
-7. Is this a remembered setup move, or is it legal and useful in the position actually on the board?
+2. If `e5` attacks the f6-knight after long castling, does `...b4` counterattack c3 and clear d5?
+3. If White takes on c6, which recapture preserves the position without allowing a tactic?
+4. Has White castled, and which wing should I develop first?
+5. Is `...b5` still possible, or has c4 changed the opening?
+6. Does `...Ne5-c4` hit something concrete?
+7. Am I preserving the dark-squared bishop in the structures where it matters?
+8. Is this a remembered setup move, or is it legal and useful in the position actually on the board?
 
 That final question is the heart of the speedrun: learn a system deeply enough to play quickly, but never so mechanically that the system replaces calculation.

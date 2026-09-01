@@ -123,6 +123,13 @@ DIAGRAMS = [
         "arrows": [arrow("e5g4", RED), arrow("b5b4"), arrow("e5c4")],
         "circles": [arrow("e5e5", YELLOW), arrow("c4c4", YELLOW)],
     },
+    {
+        "name": "diagram-13-e5-b4-counter-threat.svg",
+        "title": "Answer e5 with the b4 counter-threat",
+        "board": position("e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Qc7 Be3 a6 Qd2 Nf6 f3 Be7 O-O-O b5 Nxc6 Qxc6 e5"),
+        "arrows": [arrow("e5f6", RED), arrow("b5b4"), arrow("f6d5", BLUE)],
+        "circles": [arrow("c3c3", RED), arrow("d5d5", YELLOW)],
+    },
 ]
 
 

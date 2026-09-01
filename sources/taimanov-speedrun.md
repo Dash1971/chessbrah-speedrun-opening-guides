@@ -11,6 +11,7 @@ The videos remain the authoritative source. The links below identify representat
 - Main move order—`...Qc7`, `...a6`, `...b5`, `...Bb7`, `...Rc8`: [1300-1400 at 45:04](https://www.youtube.com/watch?v=U70AB4Rqgw8&t=2704s)
 - Why the queen moves before `...a6`: [1500-1600 at 2:05](https://www.youtube.com/watch?v=dGIh4Ex-NCg&t=125s)
 - Develop first on the wing opposite White's king: [900-1000 at 12:22](https://www.youtube.com/watch?v=iivW3TFDIi8&t=742s)
+- Answer `e5` with the `...b4` counter-threat in the KNeres post-game analysis: [900-1000 at 9:15](https://www.youtube.com/watch?v=iivW3TFDIi8&t=555s), with the motif repeated at [12:34](https://www.youtube.com/watch?v=iivW3TFDIi8&t=754s)
 - Keep the d-pawn flexible in the opening: [700-800 at 47:51](https://www.youtube.com/watch?v=_usnXzNrTU8&t=2871s)
 - `Nxc6` recapture guidance and the `...d5` follow-up: [600-700 at 43:52](https://www.youtube.com/watch?v=vtqJ1t61RsE&t=2632s)
 - Queen recapture and the long-diagonal battery: [1700-1800 at 25:10](https://www.youtube.com/watch?v=TCHRY9buSzI&t=1510s)
@@ -51,6 +52,7 @@ The boards in the guide are instructional reconstructions of Aman's recurring po
 | 10 | Declined Smith-Morra setup | Repertoire PGN chapter 09 |
 | 11 | Central response to an f4 system | Repertoire PGN chapter 11 |
 | 12 | Nb3/b3 system met by `...Ne5` | Repertoire PGN chapter 12 |
+| 13 | `e5` met by the `...b4` counter-threat, clearing d5 | KNeres post-game line in repertoire PGN chapter 03 |
 
 The exact FENs and SAN construction sequences live in [`scripts/render_taimanov_diagrams.py`](../scripts/render_taimanov_diagrams.py), which validates every position before writing the SVG.
 

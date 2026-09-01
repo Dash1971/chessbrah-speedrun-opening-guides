@@ -25,7 +25,7 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 - [King's Indian Attack speedrun source index](sources/kings-indian-attack-speedrun.md)
 - [Review notes for the contributed Taimanov draft](REVIEW.md)
 
-The Taimanov guide includes 12 annotated board diagrams, all oriented from Black's side. The Queen's Gambit adds 15 White-oriented boards; the Orangutan and King's Indian Attack add 16 each, covering their major structures and deviations. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
+The Taimanov guide includes 13 annotated board diagrams, all oriented from Black's side. The Queen's Gambit adds 15 White-oriented boards; the Orangutan and King's Indian Attack add 16 each, covering their major structures and deviations. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
 
 To regenerate them:
 
