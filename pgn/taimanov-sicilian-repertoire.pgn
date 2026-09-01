@@ -1,0 +1,167 @@
+[Event "01 The Taimanov skeleton"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B48"]
+[Opening "Sicilian Defense: Taimanov Variation"]
+[Variant "Standard"]
+
+{ SYSTEM. Learn the squares rather than a rigid move tree: pawns c5(traded)/e6/a6/b5, Qc7, Nc6, Bb7 and often Rc8, with Nf6, Be7 and castling added when tactics allow. The d-pawn usually stays home in the opening, preserving flexibility. Aman's practical heuristic is to develop first on the wing opposite White's castled king. These are destinations, not permission to ignore White's threats. } 1. e4 c5 2. Nf3 e6 { The speedrun's default. The c5/e6 pawn pair defines the repertoire, though anti-Sicilians can change the follow-up. } 3. d4 cxd4 { Capture when White cannot recapture with a pawn - i.e. when the recapture will be Nxd4 or Qxd4. If a c3-pawn still supports d4, taking hands White a broad centre, which is exactly why the Alapin needs a different treatment. } 4. Nxd4 Nc6 { In the main Open Sicilian move order: knight before queen, queen before a-pawn. } 5. Nc3 Qc7 { Qc7 is the speedrun's main move before ...a6. If White jumps Nb5, Qb8 followed by ...a6 is often available, but verify the concrete position. } 6. Be2 a6 { Now ...a6 prepares ...b5 and controls b5. } 7. O-O b5 { White has castled short, so Black begins queenside development and expansion. } 8. Bf3 Bb7 { ...b5 and ...Bb7 are a package - the point of the pawn move is to open the long diagonal. Typical follow-ups include ...Rc8, ...Nf6, ...Be7 and ...O-O, but their order is tactical. } *
+
+[Event "02 Recapture rules on c6"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B48"]
+[Opening "Sicilian Defense: Taimanov Variation"]
+[Variant "Standard"]
+
+{ PRACTICAL RECAPTURE GUIDE from the series. Prefer ...Qxc6 when the queen is already on c7 and the recapture is tactically safe; it preserves the pawn structure and builds the queen-bishop battery. If the queen is not ready, ...bxc6 is the usual structural choice, often followed quickly by ...d5; after exd5, the c-pawn commonly recaptures. ...dxc6 is an exception justified by a concrete tactical or structural reason, not the default. Always check whether a bishop recapture or an immediate e4-e5 changes the calculation. The same preservation principle appears after ...Ne5-c4 Bxc4: ...Qxc4 usually keeps the c-file and queenside pawns healthier than ...bxc4. } 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Be2 b5 8. O-O Bb7 9. Nxc6 { THE DECISION POINT - one of the series' most repeated themes. } 9... Qxc6 { The speedrun's thematic recapture: preserve the pawn structure and place the queen beside the b7-bishop. In a real game compare ...Qxc6 with ...Bxc6 before moving. } 10. Bf3 Rc8 { Keep pressure on the c-file, but do not continue mechanically: White's e4-e5 break must now be calculated. } *
+
+[Event "03 English Attack, Be3 and Qd2"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B48"]
+[Opening "Sicilian Defense: Taimanov, English Attack"]
+[Variant "Standard"]
+
+{ vs the English Attack. If White plays f3 and g4, meet g4 with ...h6 first: after g5 hxg5 White must recapture with a piece, the g-file opens toward his own king, and h4 no longer renews the threat. ...d6 is the solidifier against the f3/g4 storm - after g5 the knight drops to d7 and the ...Ne5/...Nc4 counterplay is untouched. Hunt the dark squares around the king with ...Qa5, ...Bb4 and ...Bxc3. Warning: ...Bxa3 is overrated - check Ndxb5 and Ncxb5 before playing it. } 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 { Qd2 announces queenside castling. Switch the order: kingside pieces first, then the usual queenside expansion. } 7... Nf6 { The point is that White must now spend a move stopping ...Ng4. If he does not, take the invitation - trading a knight for the dark-squared bishop guts the English Attack. } 8. O-O-O Ng4 { White castled long without covering g4, so this comes with force. } 9. Nxc6 Nxe3 10. Qxe3 Qxc6 { Queen recapture here because White wants e4-e5, and it keeps the b-pawn free for the assault. } 11. f3 b5 { Now the race. ...b5, ...b4 hitting the c3-knight, then ...a5-a4-a3. Once ...a3 lands White has no threats left. } 12. Kb1 b4 13. Nd5 { Unsound. } 13... Bc5 { Hits the queen on e3 and forces her off the file before White can consolidate the outpost. } *
+
+[Event "04 Be2 and Bd3 setups"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B48"]
+[Opening "Sicilian Defense: Taimanov Variation"]
+[Variant "Standard"]
+
+{ vs quiet development. Against Bd3 the reply is ...Ne5 - the perfect pivot square: it hits the bishop, prepares ...Nc4, keeps ...Ng4 in reserve. Then ...Nc4 forces Bxc4 and you recapture Qxc4, NEVER bxc4, which wrecks the chain and shuts the c-file where all your play lives. Two conditions on the ...Ne5-c4 jump: it is strongest with White's queen on d2 (forking queen and bishop) and pointless with the queen on e2; and with a White knight on b3 it allows Na5, so insert ...b4 first. Do not trade on d3 - cxd3 repairs White's structure and opens his c-file. } 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Be3 a6 7. Qd2 Nf6 8. Be2 { Soft: it neither stops ...Ng4 nor attacks anything. } 8... Bb4 { So hit e4 immediately. } 9. O-O Nxe4 { Winning a clean central pawn. } 10. Qd3 Nxc3 11. bxc3 Be7 { Black has won a central pawn and damaged White's structure. This is a clear practical advantage, not an automatic win. } *
+
+[Event "05 The Nxc6 bxc6 structures"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B47"]
+[Opening "Sicilian Defense: Taimanov Variation"]
+[Variant "Standard"]
+
+{ In these positions the king is genuinely safe on e8 - castling short can invite Qg4 and Bh6, so leaving the king in the centre is a real option. Push ...a5-a4 to stop b3 and deny White the queenside consolidation. ...Nd7-c5 hits the d3-bishop, then ...Ba6 offers the trade of your problem bishop for White's best defender - a move that almost always works here. A slow but permanent plan: ...Qb6 and the knight reroute Na6-b4 hitting a2 forever. Budget clock for it: this plan takes many moves and losing on time is the real danger, not the position. } 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Nxc6 bxc6 { The queen is on c7 but the b-pawn is still home; here White has no immediate e5, so the solid recapture is fine. } 7. Bd3 d5 { Immediately. The doubled c-pawn exists to support this break, backed by both the c- and e-pawns. } 8. O-O Nf6 9. Qe2 Be7 10. e5 { Space. } 10... Nd7 { The knight simply drops back - it always needs a square, and if it is ever forced to g8 you have mishandled the opening. } 11. f4 c5 { The pawn mass rolls. } *
+
+[Event "06 Maroczy with 5.c4"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B47"]
+[Opening "Sicilian Defense: Taimanov, Maroczy Bind"]
+[Variant "Standard"]
+
+{ vs the Maroczy. Recapture rule flips here: after Nxc6 take bxc6 if ...Bc5 is not yet played, but dxc6 once it is - after ...bxc6 White plays e5 and the knight has no square, while after ...dxc6, e5 runs into ...Ng4 hitting e5 and f2. If White plays e5 in these structures ...Ng4 is the standard hit. If he develops quietly instead, play ...e5 yourself and follow with ...Ke7, ...Be6, ...h6, ...Rd8, ...a5, ...Bb4. In queenless positions here the king is actively placed on e7. A perpetual is a floor, not a failure. } 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. c4 { The one line that breaks the system: c4 stops ...b5, so the ...Qc7/...a6/...b5/...Bb7 machine does not run. } 5... Nf6 { Hit e4 at once instead. } 6. Nc3 Bc5 { Hitting the d4-knight. } 7. Be3 Qb6 { Hits d4 and b2 at the same time. If White drops the knight he loses material; if he moves it, trade on e3 and collect b2. } 8. Na4 { Hitting queen and bishop while covering b2. } 8... Bb4+ { White has no comfortable answer: Nc3 loses a pawn, Bd2 leaves the d4-knight hanging, and Ke2 forfeits castling. } 9. Bd2 Qxd4 { Take the knight immediately. Retreating the queen would throw away the point of the tactic. } *
+
+[Event "07 The Bowdler, 3.Bc4"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[Variant "Standard"]
+
+{ vs Bc4. He rates this as the best Sicilian against the Bowdler. The pawn on e6 kills the f7 mate and takes d5 from the bishop, so the entire scholar's-mate scheme that motivates Bc4 is dead on arrival - you cannot be mated on f7 in this opening. Conditions on the trap: ...c4 only works against Bb3. If White retreats to d3 instead, or has already committed a pawn to d3 covering c4, forget it and play the normal setup. If White meets ...a6 with a4, settle for ...b6 and ...Bb7 - nearly the same position. And stop hunting for a tactic against a bishop parked on c4 or b3: outside the ...b5/...c4 clamp there isn't one. } 1. e4 c5 2. Nf3 e6 3. Bc4 { Roughly six games in ten at club level - and never mentioned in the theory books. } 3... a6 { Against Bc4 the order changes: PAWNS BEFORE PIECES. ...a6 rules out Bb5 and prepares ...b5. Bringing ...Nc6 out first is the mistake. } 4. Nc3 b5 { Hits the bishop with tempo and takes queenside space. } 5. Bb3 { The natural retreat - and an awkward one. } 5... c4 { The bishop is forced to a4 and becomes badly restricted. This is a powerful clamp, but not a literal trap: Ba4 remains legal. } *
+
+[Event "08 Alapin, 2.c3"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Alapin Variation"]
+[Variant "Standard"]
+
+{ vs the Alapin. The rule is about what the move attacks, not the move number: after 1.e4 c5 2.c3 answer 2...Nf6, and after 2.Nf3 e6 3.c3 answer 3...Nf6. Club players then routinely play d4 anyway and hang e4 - check for it every single game, because ...Nxe4 is often just free. The Qa4+ fork people fear does not exist, because Black's d-pawn has not moved and the diagonal is blocked. In these IQP-flavoured structures choose ...b6 and ...Bb7 over ...a6 and ...b5, which only invites a4. } 1. e4 c5 2. c3 { c3 means d4 is coming. ABANDON the Taimanov formation - this is the strongest never-do-X in the whole series. } 2... Nf6 { Hit e4 instead. If White gets d4 in with a free hand, Black's normal setup is genuinely bad: the c-file opens against Qc7 and the c6-knight gets kicked around. } 3. e5 Nd5 4. c4 { White gains space; the knight must move again. Retreat 4...Nc7, not 4...Nb6 - from b6 it has no future, from c7 it supports ...d6, ...b5 and ...Ne6. } 4... Nc7 5. d4 cxd4 6. Nf3 d6 { Undermine the e5-wedge at once; on exd6 recapture with the e-pawn to undouble. } 7. Bd3 Nc6 8. O-O dxe5 { Remove the advanced pawn while it is available. The familiar ...e6 setup can return later, but recovering the centre comes first. } *
+
+[Event "09 Smith-Morra declined"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Declined"]
+[Variant "Standard"]
+
+{ vs the Morra. Because the c-file stays closed in the declined lines, a queen on c7 is comfortable and completely safe - which is not always true in the accepted lines. Move-order psychology: playing ...g6 and ...d6 before ...Bg7 means opponents pre-select their reply against the fianchetto and miss the chance to stop ...Bg4 with h3. } 1. e4 c5 2. d4 cxd4 3. c3 d3 { Decline by returning the pawn rather than accepting. } 4. Bxd3 Nc6 5. Nf3 d6 { Insert ...d6 BEFORE the fianchetto - it lets the c8-bishop come to g4. } 6. O-O g6 7. Re1 Bg4 { Trading the f3-knight reduces White's attacking potential and is the speedrun's practical plan. } 8. Be3 Bg7 9. Nbd2 Nf6 10. h3 Bxf3 11. Nxf3 O-O *
+
+[Event "10 Against an early 2.c4"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "A00"]
+[Opening "English Opening"]
+[Variant "Standard"]
+
+{ vs an early c4. Playing the full Taimanov setup here leaves Black solid but with no aggressive options. Note the difference from 5.c4 (the Maroczy chapter), where Black is already committed to the Open Sicilian structure and adapts instead. Aman also plays this structure with White via 1.c4 specifically so you learn where the pieces go from both sides. } 1. c4 c5 2. Nf3 Nc6 3. Nc3 g6 { The one place the Taimanov setup is simply wrong. c4 weakens the dark squares, so fianchetto instead of playing ...Be7 on autopilot. } 4. g3 Bg7 5. Bg2 e6 6. O-O Nge7 { Not ...Nf6. The fianchetto controls e5 and f4 far better and keeps White's f4-f5 plan under control, while ...b5 counterplay is still available. } *
+
+[Event "11 f4 systems and Bb5 lines"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Grand Prix Attack"]
+[Variant "Standard"]
+
+{ vs f4. With a pawn already on f4, e4-e5 is more annoying than usual, so ...d6 is one of the clear cases for moving the d-pawn. f4 also takes e5 from your knight: route it ...Na5-c4 instead of ...Ne5. In the e5-wedge structures develop the knight via h6 to f5 and walk the king by hand with ...Kf8-g8 - castling is not required. Once White commits to f4 the g3 square is chronically weak: ...h5, ...h4 and ...Nh5-g3 is a very natural attacking scheme. } 1. e4 c5 2. f4 e6 3. Nf3 Nc6 4. Bb5 Qc7 { So that Bxc6 must be met with the queen, keeping the structure intact and putting her on the long diagonal. } 5. Bxc6 Qxc6 6. d3 d5 7. e5 d4 { Grabbing space and clearing the a8-h1 diagonal for queen and bishop. } 8. Nbd2 Ne7 9. Ne4 Nf5 *
+
+[Event "12 Nb3 and b3 systems"]
+[Site "chessbrah Taimanov speedrun"]
+[Date "2024.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black (Taimanov)"]
+[Result "*"]
+[Orientation "black"]
+[ECO "B46"]
+[Opening "Sicilian Defense: Taimanov Variation"]
+[Variant "Standard"]
+
+{ vs Nb3 and b3/Bb2. The standing rule: never surrender your dark-squared bishop here, and never play ...b5 before White has committed the b1-knight - with the knight still home, a4 hits much harder because White answers ...b4 with Nbd2 in one move. Against b3/Bb2 systems play ...a6 early as a matter of course, even when ...d5 is screaming to be played: White's whole scheme is Bb5xc6 doubling your pawns. Against the b2-bishop the strategic goal is ...d4, slamming the long diagonal shut. } 1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 a6 6. Nb3 { Now do NOT rush ...Bb7 - it runs into ideas that pressure Black into parting with the dark-squared bishop. } 6... Nf6 7. Be3 b5 8. Qf3 Qc7 9. O-O-O d6 { ...Nf6, ...Qc7 and ...d6 instead of the automatic ...Bb7. Preserve the dark-squared bishop whenever practical. } 10. g4 Ne5 { Meet the kingside expansion in the centre first. ...b4 or ...Rb8 may follow, but the immediate rook move is too slow here. } *
