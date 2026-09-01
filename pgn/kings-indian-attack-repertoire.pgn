@@ -1,0 +1,159 @@
+[Event "01 - The King's Indian Attack Shell"]
+[Site "https://www.youtube.com/watch?v=VY8ASpIIHYw&t=163s"]
+[Date "2022.??.??"]
+[Round "1"]
+[White "Aman Hambleton repertoire"]
+[Black "Classical e5 setup"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. d3 Nf6 4. g3 d6 5. Bg2 Be7 6. O-O O-O 7. Nbd2 {The recurring shell is e4, d3, Nf3, Nbd2, g3, Bg2, and castling. The order changes when Black attacks the centre or pins a knight.} 7... Re8 8. h3 Bf8 9. Kh2 {Kh2 protects h3 and steps off the a7-g1 diagonal before f4.} *
+
+[Event "02 - Complete the Setup Before Attacking"]
+[Site "https://www.youtube.com/watch?v=B4CQtns8Vpk&t=1345s"]
+[Date "2022.??.??"]
+[Round "2"]
+[White "Aman Hambleton repertoire"]
+[Black "e5 with Bg4"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. d3 Nf6 4. g3 Be7 5. Bg2 O-O 6. O-O d6 7. Nbd2 Bg4 8. h3 Bh5 9. c3 {C3 controls d4 before the queen leaves d1. White is now ready for Qe1, Nh4, Kh2, and f4.} 9... Qd7 10. Qe1 Rfe8 11. Nh4 *
+
+[Event "03 - Nbd2 and the Queen-Trade Rule"]
+[Site "https://www.youtube.com/watch?v=VY8ASpIIHYw&t=1760s"]
+[Date "2022.??.??"]
+[Round "3"]
+[White "Aman Hambleton repertoire"]
+[Black "Early d5"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. d3 d5 4. Nbd2 {Aman's practical rule is to develop the b1-knight before resolving the centre. After dxe4, the knight on d2 lets White recapture with the d-pawn without inviting an immediate queen exchange.} 4... dxe4 5. dxe4 Nf6 6. g3 Bb4 7. c3 Ba5 8. Bg2 *
+
+[Event "04 - C3 Takes d4 Away"]
+[Site "https://www.youtube.com/watch?v=7DHVs24fjic&t=2082s"]
+[Date "2022.??.??"]
+[Round "4"]
+[White "Aman Hambleton repertoire"]
+[Black "Nc6 and Bg4"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. d3 Bc5 4. g3 Nf6 5. Bg2 d5 6. Nbd2 dxe4 7. dxe4 O-O 8. O-O Bg4 9. h3 Bh5 10. c3 {This is not filler: c3 denies Nd4 and prevents a knight fork from chasing a queen on e1 back to d1.} 10... Qd6 11. Qe1 Rad8 *
+
+[Event "05 - Qe1 Breaks the Pin"]
+[Site "https://www.youtube.com/watch?v=7DHVs24fjic&t=55s"]
+[Date "2022.??.??"]
+[Round "5"]
+[White "Aman Hambleton repertoire"]
+[Black "Bg4-Bh5 pin"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. d3 Bc5 4. g3 Nf6 5. Bg2 d5 6. Nbd2 dxe4 7. dxe4 O-O 8. O-O Bg4 9. h3 Bh5 10. c3 Qd6 11. Qe1 {The queen unpins f3, supports the kingside, and permits Nh4 followed by f4 or g4. Qe2 is usually preferred later when the pin has disappeared. The model stops here: the source game allowed a later queen incursion, which is not part of the recommendation.} *
+
+[Event "06 - Ng5 and the Light-Squared Bishop"]
+[Site "https://www.youtube.com/watch?v=VY8ASpIIHYw&t=1114s"]
+[Date "2022.??.??"]
+[Round "6"]
+[White "Aman Hambleton repertoire"]
+[Black "Be6-Qd7 battery"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. d3 d5 4. Nbd2 dxe4 5. dxe4 Nf6 6. g3 Bb4 7. c3 Ba5 8. Bg2 Be6 9. h3 Qd7 10. Ng5 {When Black's queen and bishop line up on h3 without ...h6, Ng5 defends h3 and attacks the light-squared bishop. It is a motif, not a forced win in every position.} 10... O-O 11. Nxe6 Qxe6 12. O-O *
+
+[Event "07 - Nh4 Clears the f-Pawn"]
+[Site "https://www.youtube.com/watch?v=VY8ASpIIHYw&t=1456s"]
+[Date "2022.??.??"]
+[Round "7"]
+[White "Aman Hambleton repertoire"]
+[Black "Kingside attack"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. d3 h6 4. g3 Nf6 5. Bg2 Bc5 6. O-O d6 7. h3 O-O 8. Nbd2 Be6 9. Kh2 Qd7 10. Nh4 {The f3-knight heads toward f5 and clears f3 so the f-pawn can move.} 10... Nh7 11. f4 {The thematic break. Check Black's central captures and king safety before treating it as automatic.} *
+
+[Event "08 - Recapture with gxf4"]
+[Site "https://www.youtube.com/watch?v=VY8ASpIIHYw&t=1456s"]
+[Date "2022.??.??"]
+[Round "8"]
+[White "Aman Hambleton repertoire"]
+[Black "Open f-file structure"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 Nc6 3. d3 h6 4. g3 Nf6 5. Bg2 Bc5 6. O-O d6 7. h3 O-O 8. Nbd2 Be6 9. Kh2 Qd7 10. Nh4 Nh7 11. f4 exf4 12. gxf4 {Aman normally recaptures with the g-pawn. It supports f5, opens g2-g4 ideas, and keeps the e-pawn available for e5.} 12... f5 13. exf5 Bxf5 14. Nxf5 Qxf5 *
+
+[Event "09 - Sicilian Pawn Storm"]
+[Site "https://www.youtube.com/watch?v=7DHVs24fjic&t=19s"]
+[Date "2022.??.??"]
+[Round "9"]
+[White "Aman Hambleton repertoire"]
+[Black "Sicilian setup"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d3 Bg4 4. Nbd2 Nf6 5. h3 Bh5 6. g3 Bg6 7. Bg2 h6 8. O-O e6 9. Nh4 Bh7 10. f4 Be7 11. Kh2 O-O 12. f5 Nc6 13. Ndf3 Qc8 14. g4 {The f- and g-pawns advance with queen and knight support. The closed or stable centre is what makes this coherent.} *
+
+[Event "10 - Switch Wings Against Long Castling"]
+[Site "https://www.youtube.com/watch?v=7DHVs24fjic&t=1469s"]
+[Date "2022.??.??"]
+[Round "10"]
+[White "Aman Hambleton repertoire"]
+[Black "Queenside castling"]
+[Result "*"]
+
+1. e4 e5 2. Nf3 d6 3. d3 Bg4 4. Nbd2 Nc6 5. h3 Bh5 6. g3 Nf6 7. Bg2 g5 8. c3 h6 9. O-O Qe7 10. b4 O-O-O 11. b5 {Once Black castles long, the normal kingside plan is no longer the only race. White gains time with b4-b5 and brings the queen to a4.} 11... Nb8 12. Qa4 g4 13. Nh4 *
+
+[Event "11 - Caro-Kann Move Order"]
+[Site "https://www.youtube.com/watch?v=8UFM19j-hSE&t=27s"]
+[Date "2022.??.??"]
+[Round "11"]
+[White "Aman Hambleton repertoire"]
+[Black "Caro-Kann"]
+[Result "*"]
+
+1. e4 c6 2. d3 {Against the Caro-Kann Aman plays d3 immediately.} 2... d5 3. Nd2 {Nbd2 comes before Nf3 so a central exchange does not steer the game into the queen-trade line the speedrun is avoiding.} 3... Nf6 4. Ngf3 Bg4 5. h3 Bxf3 6. Qxf3 e6 7. g3 Be7 8. Bg2 Nbd7 9. O-O O-O 10. Qe2 {After the pin is gone, e2 is the natural queen square.} *
+
+[Event "12 - French Advance Structure"]
+[Site "https://www.youtube.com/watch?v=LkSzlala8EE&t=409s"]
+[Date "2022.??.??"]
+[Round "12"]
+[White "Aman Hambleton repertoire"]
+[Black "French Defence"]
+[Result "*"]
+
+1. e4 e6 2. d3 d5 3. Nd2 g6 4. g3 Bg7 5. Bg2 Ne7 6. Ngf3 O-O 7. O-O c5 8. e5 {White closes the centre and gains kingside space.} 8... d4 9. Re1 Nbc6 10. h4 {The plan shifts toward h5, Nf1-h2-g4, and pressure on the dark squares. Do not advance faster than the pieces can support.} 10... Qc7 11. Qe2 b6 12. Nf1 *
+
+[Event "13 - Sicilian Shell with c3"]
+[Site "https://www.youtube.com/watch?v=E8PImgGik5I&t=10s"]
+[Date "2022.??.??"]
+[Round "13"]
+[White "Aman Hambleton repertoire"]
+[Black "Sicilian - restrained centre"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d3 Nf6 4. g3 e6 5. Bg2 Be7 6. O-O O-O 7. Nbd2 a6 8. h3 Bd7 9. Kh2 Nc6 10. c3 {The same c3 rule controls d4 and supports the shell.} 10... Qc7 11. Nh4 d5 12. f4 {White attacks only after completing enough of the setup to meet Black's central break.} *
+
+[Event "14 - Scandinavian Exception"]
+[Site "https://www.youtube.com/watch?v=B4CQtns8Vpk&t=1134s"]
+[Date "2022.??.??"]
+[Round "14"]
+[White "Aman Hambleton repertoire"]
+[Black "Scandinavian"]
+[Result "*"]
+
+1. e4 d5 {The Scandinavian prevents the pure KIA move order because Black immediately attacks e4.} 2. Nc3 e6 3. d3 Nf6 4. Qe2 dxe4 5. Nxe4 Be7 6. g3 Nxe4 7. dxe4 O-O 8. Bg2 Nc6 9. c3 {Aman still aims for the familiar fianchetto, castling, c3, h3, and kingside play, but this is an adaptation rather than an automatic setup.} *
+
+[Event "15 - Hippo and Double Fianchetto"]
+[Site "https://www.youtube.com/watch?v=B4CQtns8Vpk&t=2500s"]
+[Date "2022.??.??"]
+[Round "15"]
+[White "Aman Hambleton repertoire"]
+[Black "Hippo setup"]
+[Result "*"]
+
+1. e4 b6 2. d3 Bb7 3. Nd2 g6 4. g3 Bg7 5. Bg2 d6 6. Ngf3 e6 7. O-O a6 8. h3 h6 9. Kh2 Nd7 10. Nh4 Ne7 11. f4 {Black's flexible setup does not stop White's shell. Finish development, then choose f5 or a central break according to Black's king.} 11... f5 12. Nxg6 {In the game, tactics against the overloaded g-pawn made this capture possible. It is a calculation, not a standard sacrifice.} 12... Nxg6 13. Qh5 *
+
+[Event "16 - Mirrored King's Indian Tactic"]
+[Site "https://www.youtube.com/watch?v=0bWVf-0QRH8&t=1430s"]
+[Date "2022.??.??"]
+[Round "16"]
+[White "Aman Hambleton repertoire"]
+[Black "Mirrored King's Indian"]
+[Result "*"]
+
+1. e4 d6 2. Nf3 Nf6 3. d3 g6 4. g3 Bg7 5. Bg2 O-O 6. O-O e5 7. h3 Nh5 8. Nh4 f5 9. exf5 Bxf5 10. Nxf5 {Black's g-pawn cannot recapture because it is pinned to the g7-bishop; after Rxf5, the long diagonal also makes Bxb7 possible. Check the exact tactics before copying the sequence.} 10... Rxf5 11. Bxb7 Nd7 12. g4 *

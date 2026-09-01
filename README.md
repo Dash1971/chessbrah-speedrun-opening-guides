@@ -11,6 +11,7 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 - [The Taimanov, as Aman Hambleton Plays It](guides/taimanov-sicilian.md)
 - [The Queen's Gambit, as Aman Hambleton Plays It](guides/queens-gambit.md)
 - [The Orangutan, as Aman Hambleton Plays It](guides/orangutan.md)
+- [The King's Indian Attack, as Aman Hambleton Plays It](guides/kings-indian-attack.md)
 
 ## Study material
 
@@ -20,9 +21,11 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 - [Queen's Gambit speedrun source index](sources/queens-gambit-speedrun.md)
 - [Annotated Orangutan repertoire PGN](pgn/orangutan-repertoire.pgn)
 - [Orangutan speedrun source index](sources/orangutan-speedrun.md)
+- [Annotated King's Indian Attack repertoire PGN](pgn/kings-indian-attack-repertoire.pgn)
+- [King's Indian Attack speedrun source index](sources/kings-indian-attack-speedrun.md)
 - [Review notes for the contributed Taimanov draft](REVIEW.md)
 
-The Taimanov guide includes 12 annotated board diagrams, all oriented from Black's side. The Queen's Gambit adds 15 White-oriented boards, and the Orangutan adds 16, covering their major structures and deviations. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
+The Taimanov guide includes 12 annotated board diagrams, all oriented from Black's side. The Queen's Gambit adds 15 White-oriented boards; the Orangutan and King's Indian Attack add 16 each, covering their major structures and deviations. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
 
 To regenerate them:
 
@@ -31,6 +34,7 @@ python3 -m pip install -r scripts/requirements.txt
 python3 scripts/render_taimanov_diagrams.py
 python3 scripts/render_queens_gambit_diagrams.py
 python3 scripts/render_orangutan_diagrams.py
+python3 scripts/render_kings_indian_attack_diagrams.py
 ```
 
 ## Method
