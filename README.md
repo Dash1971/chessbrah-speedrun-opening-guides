@@ -6,6 +6,9 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 
 ## Guides
 
+- [The Stonewall Attack, as Aman Hambleton Plays It](guides/stonewall-attack.md)
+- [The Stonewall Defense, as Aman Hambleton Plays It](guides/stonewall-defense.md)
+- [The French Defense, as Aman Hambleton Plays It](guides/french-speedrun.md)
 - [The Stonewall Playbook](guides/stonewall.md)
 - [The French Defense Playbook](guides/french-defense.md)
 - [The Taimanov, as Aman Hambleton Plays It](guides/taimanov-sicilian.md)
@@ -15,6 +18,12 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 
 ## Study material
 
+- [Annotated Stonewall Attack games](pgn/stonewall-attack-annotated-games.pgn)
+- [Stonewall Attack speedrun source index](sources/stonewall-attack-speedrun.md)
+- [Annotated Stonewall Defense games](pgn/stonewall-defense-annotated-games.pgn)
+- [Stonewall Defense speedrun source index](sources/stonewall-defense-speedrun.md)
+- [Annotated French Defense games](pgn/french-defense-annotated-games.pgn)
+- [French Defense speedrun source index](sources/french-defense-speedrun.md)
 - [Annotated Taimanov repertoire PGN](pgn/taimanov-sicilian-repertoire.pgn)
 - [Taimanov speedrun source index](sources/taimanov-speedrun.md)
 - [Annotated Queen's Gambit repertoire PGN](pgn/queens-gambit-repertoire.pgn)
@@ -25,7 +34,7 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 - [King's Indian Attack speedrun source index](sources/kings-indian-attack-speedrun.md)
 - [Review notes for the contributed Taimanov draft](REVIEW.md)
 
-The Taimanov guide includes 13 annotated board diagrams, all oriented from Black's side. The Queen's Gambit adds 15 White-oriented boards; the Orangutan and King's Indian Attack add 16 each, covering their major structures and deviations. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
+The transcript-led Stonewall Attack, Stonewall Defense, and French guides add 41 diagrams: 13 White-oriented Stonewall Attack boards, 13 Black-oriented Stonewall Defense boards, and 15 Black-oriented French boards. The Taimanov guide includes 13 annotated boards; the Queen's Gambit adds 15; the Orangutan and King's Indian Attack add 16 each. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
 
 To regenerate them:
 
@@ -35,6 +44,7 @@ python3 scripts/render_taimanov_diagrams.py
 python3 scripts/render_queens_gambit_diagrams.py
 python3 scripts/render_orangutan_diagrams.py
 python3 scripts/render_kings_indian_attack_diagrams.py
+python3 scripts/render_stonewall_french_speedrun_diagrams.py
 ```
 
 ## Method
