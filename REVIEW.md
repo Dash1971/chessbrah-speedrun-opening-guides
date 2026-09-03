@@ -61,3 +61,19 @@ The guide, source index, and annotated PGN were subsequently checked again again
 - All 13 guide diagrams are generated from legal SAN sequences or the validated target-position FEN. Their provenance is recorded in the source index, and the rendering script rejects invalid boards.
 
 Engine analysis is deliberately subordinate to the source material. Its role here is to catch tactical contradictions, not to replace Aman's repertoire with computer moves.
+
+## Full French transcript editorial audit
+
+The transcript-led French guide was first published when only episodes 1 and 2 had been recovered. Its later sections relied on the supplied PGN annotations and game timestamps. After all eight playlist transcripts became available, the guide and source index were checked again against the complete caption set.
+
+That pass corrected the guide in several important ways:
+
+- The Winawer chapter now teaches Aman's actual speedrun system: `...Ne7` rather than immediate `...c5`, followed by `...b6`, `...Ba6`, the `...Na6-b8-c6-a5-c4` reroute, a second knight on f5, and `...h5` against `g4`.
+- The missing `4.Ne2` exception is explicit: avoid automatic `...Bxc3+` when another knight can replace the c3-knight, avoid trying to hold the tempting e4-pawn, and challenge the centre with `...f6`.
+- The Exchange chapter now clearly separates Aman's basic short-castle setup from the more double-edged `...Bd6`, `...Nge7`, `...Nc6`, `...f6`, `...Qd7`, and long-castle setup.
+- The Tarrasch chapter now includes Aman's `...Qxd5` recapture and its move-order reason: the b1-knight has already gone to d2 and cannot chase the queen with `Nc3`.
+- The King's Indian Attack chapter now follows Aman's displayed setup with `...Bd6`, `...Nc6`, `...Nge7`, control of e5, `...d4-e5` against `c3`, and queenside play after the kingside is fixed.
+- A source-index error was removed: episode 6 at 63:10 belongs to the King's Indian Attack model game, not a Tarrasch game. The higher-rated Tarrasch reference is at 1:11:34.
+- Generic prose was replaced where possible by Aman's short recurring language: "stick to what we know," "one step backwards, two steps forwards," and "knight c4, knight f5—those are my squares."
+
+The 61-game supplied PGN remains unchanged. The guide uses it to connect concepts to complete games, while the recovered captions remain the authority for Aman's explanations.
