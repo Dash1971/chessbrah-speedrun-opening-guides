@@ -77,3 +77,20 @@ That pass corrected the guide in several important ways:
 - Generic prose was replaced where possible by Aman's short recurring language: "stick to what we know," "one step backwards, two steps forwards," and "knight c4, knight f5—those are my squares."
 
 The 61-game supplied PGN remains unchanged. The guide uses it to connect concepts to complete games, while the recovered captions remain the authority for Aman's explanations.
+
+## Building Habits V1 full-series audit
+
+The Building Habits V1 guide was built from all 32 full playlist episodes, not the shorter edited series. The complete local caption corpus contains 90,990 timestamped segments spanning approximately 63.47 hours. Each track reaches the end of its video.
+
+The editorial pass organized the material around Aman's four cumulative levels:
+
+- Level 1 removes choices and builds centre, development, castling, loose-piece, trade, rook, luft, passed-pawn, and active-king habits.
+- Level 2 adds basic tactics, safe premoves, more central space, useful pins, trade exceptions, basic mates, and the rook-behind-passed-pawn rule.
+- Level 3 removes autopilot, makes piece placement and trades position-specific, introduces post-game opening study, and requires a small body of exact endgame knowledge.
+- Level 4 removes the remaining hard prohibitions and focuses on sacrifices, gambits, weak squares, pawn structures, colour complexes, outposts, imbalances, and named endgames.
+
+The supplied 394-game PGN was compared game by game with the existing timestamped V1 corpus. Player order, result, and every main-line move match. The published copy preserves the richer episode, timestamp, Lichess chapter, precision, and attribution headers.
+
+Community summaries were used as coverage checks only. The Chess.com notes describe the edited/V2 lessons and do not map one-to-one onto V1. The Reddit opening index intentionally omits common `e4 e5` and one-off games. Where wording or scope differed, the complete V1 transcripts controlled the guide.
+
+All 14 diagrams are reproducibly generated from legal SAN sequences or valid instructional FENs. The Part 29 d5-outpost board follows the actual first game of that episode; the remaining boards illustrate the recurring rules without claiming to reproduce one exact frame.
