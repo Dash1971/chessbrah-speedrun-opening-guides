@@ -94,3 +94,24 @@ The supplied 394-game PGN was compared game by game with the existing timestampe
 Community summaries were used as coverage checks only. The Chess.com notes describe the edited/V2 lessons and do not map one-to-one onto V1. The Reddit opening index intentionally omits common `e4 e5` and one-off games. Where wording or scope differed, the complete V1 transcripts controlled the guide.
 
 All 14 diagrams are reproducibly generated from legal SAN sequences or valid instructional FENs. The Part 29 d5-outpost board follows the actual first game of that episode; the remaining boards illustrate the recurring rules without claiming to reproduce one exact frame.
+
+## Building Habits V2 full-series audit
+
+The separate V2 guide was checked against all 55 full playlist episodes. The local caption corpus contains 90,921 timestamped segments spanning approximately 91.61 hours, and every track reaches the end of its video.
+
+The audit confirmed the four cumulative levels and clarified the differences from V1:
+
+- V2 keeps opening instruction smaller. It retains the classical `e4` and Four Knights base instead of making V1's later White-repertoire switch to the Ruy Lopez or adding a comparable Nimzo-Indian package.
+- V2 still discusses the Ruy Lopez when opponents play it and adds a few exact opening answers, especially against the Evans Gambit. “Less opening theory” therefore does not mean none.
+- The escape-square rule is consistently taught as the “snorkel.” The new “red dot” warning tells the player to move a king off an enemy queen or rook's line before it opens.
+- “Random pawn move” becomes the named RPM fallback. By Level 3, Aman prefers a useful central RPM over a routine flank push.
+- V2 has no formal equivalent of V1's later “rook science” or general best-open-file lesson. Rooks in the middle remains the default, although Aman chooses an open file in individual positions.
+- Bishop-versus-knight decisions and pawn-colour rules appear earlier and are developed gradually. Level 4 concentrates on weak pawns, the square in front, colour complexes, piece preservation, and practical pawn and rook endings.
+
+The supplied 527-game PGN was compared with the independently timestamped corpus. The sources agree on every complete played game except one presentation issue: game 311 includes a hypothetical continuation after Black resigned at `10.Bb5`. The published file keeps the recorded result and ending, then preserves that continuation as a labelled analysis note. It combines the supplied clock comments and notes with the verified Chess.com links, opening names, episode numbers, VOD timestamps, and precision headers. All 527 games parse legally.
+
+The VOD mapping gives 413 games independently corroborated exact timestamps and 102 time-base-derived timestamps. Twelve account games fall outside the stream windows and remain explicitly labelled `not-on-stream`.
+
+The community comparison was used only to locate possible differences. Where it overgeneralized—for example, saying V2 has no opening analysis or no Ruy Lopez discussion—the full transcripts controlled the guide.
+
+All 15 V2 diagrams are reproducibly generated from legal SAN sequences or valid instructional FENs. They illustrate the recurring rules and do not claim that each board is an exact frame from one particular game.

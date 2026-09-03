@@ -6,6 +6,7 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 
 ## Guides
 
+- [Building Chess Habits V2, as Aman Hambleton Teaches It](guides/building-habits-v2.md)
 - [Building Chess Habits V1, as Aman Hambleton Teaches It](guides/building-habits-v1.md)
 - [The Stonewall Attack, as Aman Hambleton Plays It](guides/stonewall-attack.md)
 - [The Stonewall Defense, as Aman Hambleton Plays It](guides/stonewall-defense.md)
@@ -19,6 +20,8 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 
 ## Study material
 
+- [Building Habits V2 — all 527 games](pgn/building-habits-v2-games.pgn)
+- [Building Habits V2 complete source index](sources/building-habits-v2.md)
 - [Building Habits V1 — all 394 games](pgn/building-habits-v1-games.pgn)
 - [Building Habits V1 complete source index](sources/building-habits-v1.md)
 - [Annotated Stonewall Attack games](pgn/stonewall-attack-annotated-games.pgn)
@@ -37,7 +40,7 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 - [King's Indian Attack speedrun source index](sources/kings-indian-attack-speedrun.md)
 - [Review notes for the contributed Taimanov draft](REVIEW.md)
 
-Building Habits V1 adds 14 instructional boards across its four levels. The transcript-led Stonewall Attack, Stonewall Defense, and French guides add 41 diagrams: 13 White-oriented Stonewall Attack boards, 13 Black-oriented Stonewall Defense boards, and 15 Black-oriented French boards. The Taimanov guide includes 13 annotated boards; the Queen's Gambit adds 15; the Orangutan and King's Indian Attack add 16 each. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
+Building Habits V2 adds 15 instructional boards across its four levels; V1 adds 14. The transcript-led Stonewall Attack, Stonewall Defense, and French guides add 41 diagrams: 13 White-oriented Stonewall Attack boards, 13 Black-oriented Stonewall Defense boards, and 15 Black-oriented French boards. The Taimanov guide includes 13 annotated boards; the Queen's Gambit adds 15; the Orangutan and King's Indian Attack add 16 each. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
 
 To regenerate them:
 
@@ -49,6 +52,7 @@ python3 scripts/render_orangutan_diagrams.py
 python3 scripts/render_kings_indian_attack_diagrams.py
 python3 scripts/render_stonewall_french_speedrun_diagrams.py
 python3 scripts/render_building_habits_v1_diagrams.py
+python3 scripts/render_building_habits_v2_diagrams.py
 ```
 
 ## Method
