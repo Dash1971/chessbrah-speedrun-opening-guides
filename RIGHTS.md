@@ -14,7 +14,7 @@ Public release of this repository was approved on 2026-09-01 by the project repr
 
 Continuing release requirements:
 
-1. preserve the attribution and source links to Aman Hambleton and Chessbrah;
+1. preserve the attribution and source links to Aman Hambleton, Eric Hansen, and Chessbrah as appropriate to each guide;
 2. keep the original videos outside the repository's AGPL grant;
 3. verify every newly imported asset against [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md);
 4. preserve component-level notices when redistributing or modifying visual assets.

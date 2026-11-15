@@ -115,3 +115,22 @@ The VOD mapping gives 413 games independently corroborated exact timestamps and 
 The community comparison was used only to locate possible differences. Where it overgeneralized—for example, saying V2 has no opening analysis or no Ruy Lopez discussion—the full transcripts controlled the guide.
 
 All 15 V2 diagrams are reproducibly generated from legal SAN sequences or valid instructional FENs. They illustrate the recurring rules and do not claim that each board is an exact frame from one particular game.
+
+
+## Eric Hansen's Caro-Kann / …c6 guide — 2026-11-15
+
+Added a separate guide for Eric's repertoire, preserving all 148 supplied games byte-for-byte and adding 22 annotated study chapters and 22 Black-oriented SVG diagrams. The guide distinguishes actual Caro-Kann structures from the Slavs, Semi-Slavs, and Stonewalls produced by the wider …c6 repertoire.
+
+All 12 playlist English caption tracks were retrieved (11,344 segments; about 11.41 hours of span). The editorial pass reviewed opening windows and relevant explanations/recaps across the 12 videos, expanding the tactical exceptions in context. This is not described as a sentence-by-sentence full-transcript audit. The source index preserves the playlist's unusual ordering of the 2000–2200 episode and distinguishes approximate supplied game links from caption-grounded teaching passages.
+
+The supplied “off camera” note for game 127 is qualified: the final episode resumes after a glitch and names Hollywood Chess. This suggests partial video coverage, without establishing an exact game start or a frame match. Games 140–148 remain explicitly outside the supplied video's endpoint. These provenance notes do not alter the original PGN.
+
+Stockfish 18 screened 2,204 Black opening move instances (first 15 Black moves per game, or fewer in short games), checked all displayed positions, and examined the principal tactical claims more deeply. The corrections include:
+
+- Game 23: the Two Knights queen-sacrifice idea does **not** refute the setup; **8…Qb6** is the escape, while automatic **8…bxc6** is the error. Eric also explains the resource after the game.
+- Game 20: the successful **…Bxh2+** attack is not sound against **Kh3**. It is a warning example, not a recommended forced win.
+- Game 20: Eric correctly recognizes that **…Bd6** allows **Nxd5** against the pinned e6-pawn, but **…Ne7** is a more precise alternative to his **…Nf6**.
+- Game 117: White's **Nxf7** sacrifice is not justified by the eventual result; the engine favors Black after accepting and defending accurately.
+- Bishop-out-first is conditional: early **h4** and Slav **Qb3** pressure require their own responses.
+
+Repository-wide validation parsed 1,428 games/chapters and checked 109,673 moves, including variations, without legality or board-validity errors. Every diagram replays an actual supplied game prefix and matches its recorded FEN. The source PGN checksum, engine settings/limits, full machine-readable results, reproduction script, and exact evidence limits are published in the [Caro-Kann validation report](sources/eric-caro-kann-validation.md).

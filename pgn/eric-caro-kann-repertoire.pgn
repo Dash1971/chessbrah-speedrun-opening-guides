@@ -1,0 +1,285 @@
+[Event "Advance: challenge the centre immediately"]
+[Site "Study excerpt"]
+[Date "2023.05.09"]
+[Round "1"]
+[White "SneaksXO"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "1"]
+[StudyId "advance-c5"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 1. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 400-600 ELO - watch this game from about 1:00: https://www.youtube.com/watch?v=rCZrddCQWY8&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=60s } 1. e4 c6 2. d4 d5 3. e5 c5 { Eric also plays 3...Bf5 in this run. Here ...c5 immediately challenges d4. } 4. dxc5 e6 { Recover the pawn through development; do not confuse this position with a Slav pawn grab. } 5. Nc3 Bxc5 { The bishop recovers c5. Black now has the d-pawn; White no longer does. } *
+
+[Event "Advance: bishop outside the pawn chain"]
+[Site "Study excerpt"]
+[Date "2023.05.31"]
+[Round "2"]
+[White "A_River_There_Chief"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "84"]
+[StudyId "advance-bf5"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 84. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 1600-1800 ELO - watch this game from about 50:30: https://www.youtube.com/watch?v=VEl-6jrdpDA&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=3030s } 1. e4 c6 2. d4 d5 3. e5 Bf5 { Develop the light-squared bishop before closing its diagonal with ...e6. } 4. Nf3 e6 5. c3 c5 { The ...c5 break attacks the base of White's pawn chain. } 6. Bd3 Bg6 { Keeping the bishop invites Bxg6 hxg6, opening the h-file. It is a structural choice, not a forced attack. } 7. O-O Nc6 8. Bg5 Be7 *
+
+[Event "Early Nf3: the ...Bg4 route"]
+[Site "Study excerpt"]
+[Date "2023.05.09"]
+[Round "3"]
+[White "hahGOTEEM"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "12"]
+[StudyId "early-nf3"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 12. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 600-800 ELO - watch this game from about 11:50: https://www.youtube.com/watch?v=YDUfNGkU3GA&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=710s } 1. e4 c6 2. Nf3 d5 3. e5 Bg4 { With a white knight on f3, Eric uses ...Bg4 before ...e6. } 4. d4 e6 5. Be2 c5 6. O-O Nc6 { The c-pawn has left c6; the b8-knight can now use that square. } 7. c3 Nge7 8. Be3 Nf5 { An example of ...Nge7-f5. Check g4 and the bishop's retreat squares before copying it. } *
+
+[Event "Advance h4: give the bishop a retreat"]
+[Site "Study excerpt"]
+[Date "2023.05.15"]
+[Round "4"]
+[White "Tom_Hack"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "55"]
+[StudyId "bishop-shelter"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 55. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 1200-1400 ELO - watch this game from about 49:40: https://www.youtube.com/watch?v=HI0Q1obUbXA&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=2980s } 1. e4 c6 2. d4 d5 3. e5 Bf5 4. h4 h6 { A retreat-square move against h4. Do not close the diagonal with ...e6 without checking g4 and h5. } *
+
+[Event "Advance c4: occupy d5 with a piece"]
+[Site "Study excerpt"]
+[Date "2023.07.21"]
+[Round "5"]
+[White "kristianmsc"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "113"]
+[StudyId "advance-c4"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 113. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 2200-2300 ELO - watch this game from about 8:50: https://www.youtube.com/watch?v=Y0LtCzfbdwA&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=530s } 1. e4 c6 2. d4 d5 3. e5 Bf5 4. c4 e6 5. Nc3 Ne7 6. Nge2 Nd7 7. Ng3 Bg6 8. h4 dxc4 { By exchanging the d5-pawn, Black creates a d5-square for a piece. } 9. Bxc4 Nb6 { ...Nb6 gains time against the bishop and supports d5. } 10. Bb3 h6 11. h5 Bh7 12. Be3 Ned5 { The e7-knight reaches d5. This is a plan from this specific pawn structure, not a compulsory sequence. } *
+
+[Event "Exchange with Nc3: active bishops and the c-file"]
+[Site "Study excerpt"]
+[Date "2023.05.14"]
+[Round "6"]
+[White "Sarrouf"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "29"]
+[StudyId "exchange"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 29. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 800-1000 ELO - watch this game from about 41:40: https://www.youtube.com/watch?v=tyFiLrOpKYg&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=2500s } 1. e4 c6 2. d4 d5 3. exd5 cxd5 { Recapture with the c-pawn: c6 becomes a knight square and the c-file becomes half-open. } 4. Nc3 Nc6 5. Be3 Bf5 { No knight on f3 to pin yet, so the bishop develops to f5. } 6. h3 e6 7. a3 Bd6 8. Bd3 Nge7 { With the f8-bishop already on d6, ...Nge7 does not block it. } 9. Nf3 O-O { The recapture improves the knight; doubled pawns are not inevitable after Bxf5. } 10. Bxf5 Nxf5 11. Qd2 Rc8 { Use the file that actually exists. This game later demonstrates ...Na5-c4. } *
+
+[Event "Exchange Bd3 and c3: the fianchetto plan"]
+[Site "Study excerpt"]
+[Date "2023.06.06"]
+[Round "7"]
+[White "Arman_Amrenov"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "90"]
+[StudyId "exchange-fianchetto"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 90. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 1800-2000 ELO - watch this game from about 12:30: https://www.youtube.com/watch?v=qRgmW6SW_b0&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=750s } 1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Qc7 { Eric uses ...Qc7 to discourage Bf4 by claiming the c7-f4 diagonal. } 6. h3 Nf6 7. Nf3 g6 8. O-O Bg7 { An alternative to the ...Bd6 setup: develop on g7. } 9. Re1 O-O 10. Bg5 Bf5 11. Bxf5 gxf5 { This is g7xf5, not e6xf5. The g-file opens and the pawn on f5 controls e4. } 12. Nbd2 e6 { The structure supports ...Ne4. ...Kh8 and ...Rg8 are possible follow-ups, not automatic moves. } *
+
+[Event "Exchange: two pins change development"]
+[Site "Study excerpt"]
+[Date "2023.05.12"]
+[Round "8"]
+[White "arsen265"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "20"]
+[StudyId "pin-warning"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 20. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 600-800 ELO - watch this game from about 56:00: https://www.youtube.com/watch?v=YDUfNGkU3GA&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=3360s } 1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nc3 Nc6 5. Bb5 Bf5 6. Nf3 e6 7. Qe2 { Black to move. ...Bd6 allows Nxd5: the e6-pawn cannot legally recapture because of Qe2. Eric plays ...Nf6, but Stockfish prefers alternatives including ...Ne7; see the analysis variation. } 7... Ne7 { Engine-checked editorial alternative: develops while keeping d5 protected and preparing to unpin Nc6. } ( 7... Bd6 8. Nxd5 { Analysis warning: the e6-pawn is pinned to Ke8 by Qe2; ...exd5 is illegal. } ) ( 7... Nf6 8. Ne5 { Played continuation: Ne5 increases the pressure on the pinned c6-knight. The deeper engine check favors White; see the report for the comparison with ...Ne7. } ) *
+
+[Event "Two Knights: the simple bishop exchange"]
+[Site "Study excerpt"]
+[Date "2023.05.09"]
+[Round "9"]
+[White "crackermain"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "7"]
+[StudyId "two-knights"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 7. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 400-600 ELO - watch this game from about 33:30: https://www.youtube.com/watch?v=rCZrddCQWY8&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=2010s } 1. e4 c6 2. Nf3 d5 3. Nc3 Bg4 { ...Bg4 is Eric's recurring response to the Two Knights. } 4. h3 Bxf3 { The simpler choice against h3: exchange rather than keep a tactically demanding pin. } 5. Qxf3 e6 { Finish development; giving up the bishop pair is a real concession, not free equality. } *
+
+[Event "Two Knights: do not recapture automatically"]
+[Site "Study excerpt"]
+[Date "2023.05.12"]
+[Round "10"]
+[White "NamChickenn"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "23"]
+[StudyId "two-knights-trap"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 23. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 800-1000 ELO - watch this game from about 10:00: https://www.youtube.com/watch?v=tyFiLrOpKYg&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=600s } 1. e4 c6 2. Nf3 d5 3. Nc3 Bg4 4. exd5 cxd5 5. h3 Bh5 6. Bb5+ Nc6 { ...Nc6 is playable here. Do not mislabel this developing move as the losing error. } 7. Ne5 Bxd1 { The apparent queen sacrifice must be calculated. Stockfish supports accepting it in this exact position. } 8. Nxc6 { The correction is 8...Qb6. After 8...bxc6 9.Bxc6+ Qd7 10.Bxd7+ Kxd7 11.Kxd1, Black has lost a pawn. Eric explains the ...Qb6 resource in the post-game discussion. } 8... Qb6 ( 8... bxc6 9. Bxc6+ Qd7 10. Bxd7+ Kxd7 11. Kxd1 { This is the played continuation. Black emerges a pawn down; the original game nevertheless ended 0-1. } ) 9. Ne5+ Kd8 10. Nxf7+ Kc8 11. Kxd1 d4 { Engine-checked escape, also discussed by Eric after the game. A sample defense, not a claim that every White move is forced. } *
+
+[Event "Classical: exchange the e4-pawn, develop the bishop"]
+[Site "Study excerpt"]
+[Date "2023.06.24"]
+[Round "11"]
+[White "sahilkuril"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "104"]
+[StudyId "classical"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 104. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 2000-2200 ELO - watch this game from about 20:50: https://www.youtube.com/watch?v=mKmkrye5lUs&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=1250s } 1. e4 c6 2. d4 d5 3. Nc3 dxe4 { When White supports e4 with Nc3, ...dxe4 leads to the normal Caro-Kann main lines. } 4. Nxe4 Bf5 { The classical bishop development. } 5. Ng3 Bg6 6. h4 h6 { Make h7 available for the bishop before h5. } 7. Nf3 Nd7 8. h5 Bh7 9. Bd3 Bxd3 { Exchange on d3 when the bishop is challenged. } 10. Qxd3 e6 11. O-O Ngf6 12. Bf4 Be7 13. c4 O-O { A complete short-castled model. The ...c5 arrow is a plan to evaluate, not a forced next move. } *
+
+[Event "...Nd7: develop the c8-bishop later"]
+[Site "Study excerpt"]
+[Date "2023.07.24"]
+[Round "12"]
+[White "vahid_ka65"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "128"]
+[StudyId "karpov"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 128. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 2400-2600 ELO - watch this game from about 4:30: https://www.youtube.com/watch?v=wNuYG9_1uf4&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=270s } 1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Nd7 { The ...Nd7 system delays the c8-bishop. It is a separate branch, not a failure to follow ...Bf5. } 5. Nf3 Ngf6 6. Ng3 e6 { The e-pawn supports development and guards d5. } 7. Bd3 Bd6 8. b3 O-O 9. O-O b6 10. Bb2 Bb7 { ...b6 and ...Bb7 solve the remaining bishop problem. } 11. c4 c5 { The central break arrives after castling and development. } *
+
+[Event "...Nd7: calculate the sacrifice on f7"]
+[Site "Study excerpt"]
+[Date "2023.07.21"]
+[Round "13"]
+[White "AttackFirstThinkLater"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "117"]
+[StudyId "karpov-sacrifice"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 117. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 2300-2400 ELO - watch this game from about 0:20: https://www.youtube.com/watch?v=FmT5SkOnEHE&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=20s } 1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Nf3 Ngf6 6. Neg5 e6 7. Bd3 Bd6 { This developing move is playable. 8.Nxf7 is a speculative sacrifice, not a forced win for White. The analysis variation shows Black accepting and reorganizing. } 8. Nxf7 Kxf7 9. Ng5+ Kg8 10. O-O Nf8 { Editorial defense to the sacrifice. Stockfish favors Black here; Eric lost later. Do not infer opening soundness from the final result. } *
+
+[Event "...Nf6 and ...gxf6: activity for structure"]
+[Site "Study excerpt"]
+[Date "2023.06.24"]
+[Round "14"]
+[White "wilmer28"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "97"]
+[StudyId "bronstein"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 97. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 1800-2000 ELO - watch this game from about 48:50: https://www.youtube.com/watch?v=qRgmW6SW_b0&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=2930s } 1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 { Eric tries ...Nf6 as well as ...Bf5 and ...Nd7. } 5. Nxf6+ gxf6 { ...gxf6 accepts doubled f-pawns and opens the g-file. ...exf6 is a different structure; do not combine their plans. } 6. Bf4 Bf5 7. Nf3 e6 { Development before exploitation. This is not a license to grab every queenside pawn. } *
+
+[Event "Early Bc4: gain a tempo in the centre"]
+[Site "Study excerpt"]
+[Date "2023.05.09"]
+[Round "15"]
+[White "serki_77"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "14"]
+[StudyId "hillbilly"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 14. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 600-800 ELO - watch this game from about 22:20: https://www.youtube.com/watch?v=YDUfNGkU3GA&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=1340s } 1. e4 c6 2. Bc4 d5 { Attack Bc4 while occupying the centre. } 3. exd5 cxd5 { The pawn recapture supports the centre and clears c6. } 4. Bb3 Nc6 5. Qf3 Nf6 6. Nc3 Bg4 { Develop the bishop before ...e6. Qf3 does not make f7 fall automatically. } 7. Qg3 e6 8. d3 Bd6 { A possible ...d4 gains time against Nc3, but always check the exact queen and knight squares. } *
+
+[Event "Accelerated Panov: activity against the isolated pawn"]
+[Site "Study excerpt"]
+[Date "2023.07.24"]
+[Round "16"]
+[White "vegan4animals"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "136"]
+[StudyId "panov"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 136. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 2400-2600 ELO - watch this game from about 42:20: https://www.youtube.com/watch?v=wNuYG9_1uf4&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=2540s } 1. e4 c6 2. c4 d5 3. cxd5 cxd5 4. exd5 Nf6 { ...Nf6 develops before recovering d5. This avoids an early queen chase. } 5. Nc3 Nxd5 { Recover the pawn with a knight. } 6. Nf3 e6 7. Bc4 Be7 8. O-O O-O 9. Re1 Nc6 10. d4 b6 11. Bb3 Bb7 { ...b6 and ...Bb7 complete the setup. Contain d4-d5 and compare exchanges carefully. } *
+
+[Event "Fantasy: Eric's ...e6 response"]
+[Site "Study excerpt"]
+[Date "2023.05.15"]
+[Round "17"]
+[White "LilPawnNamesJoe"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "33"]
+[StudyId "fantasy"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 33. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 1000-1200 ELO - watch this game from about 6:20: https://www.youtube.com/watch?v=-Gp7ZDRtDKo&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=380s } 1. e4 c6 2. d4 d5 3. f3 e6 { A practical response to 3.f3 shown in the run. It allows a French-like structure rather than insisting on an outside bishop. } 4. e5 c5 { After e5, ...c5 attacks d4. } 5. c3 Nc6 6. Be3 Nh6 { A route to f5. The position also contains ...Qh4+ ideas because f3 weakened that diagonal; they are not universally winning. } *
+
+[Event "Quiet d3: take the centre when allowed"]
+[Site "Study excerpt"]
+[Date "2023.06.24"]
+[Round "18"]
+[White "Junttaone"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "102"]
+[StudyId "quiet-centre"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 102. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 2000-2200 ELO - watch this game from about 15:10: https://www.youtube.com/watch?v=mKmkrye5lUs&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=910s } 1. e4 c6 2. d3 d5 3. Nd2 e5 { Against this quiet d3/Nd2 system, Eric takes additional space with ...e5. } 4. Ngf3 Bd6 5. g3 Nf6 6. Bg2 O-O 7. O-O Re8 8. Re1 Nbd7 9. exd5 cxd5 { Because c6 remains occupied by a pawn, the b8-knight develops to d7. Keep the centre defended before pushing farther. } *
+
+[Event "Against d4 and c4: a separate Slav branch"]
+[Site "Study excerpt"]
+[Date "2023.06.24"]
+[Round "19"]
+[White "mb8586"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "103"]
+[StudyId "slav"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 103. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 2000-2200 ELO - watch this game from about 18:00: https://www.youtube.com/watch?v=mKmkrye5lUs&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=1080s } 1. d4 c6 2. c4 d5 3. Nc3 Nf6 4. Nf3 e6 { ...e6 before developing Bc8 is legitimate here: pressure on d5 and b7 changes priorities. } 5. Bg5 Be7 6. e3 Nbd7 7. Qb3 O-O 8. Rd1 h6 9. Bh4 a6 10. a4 dxc4 { Only now release the central tension. } 11. Bxc4 b5 { ...b5 gains time against the bishop. } 12. axb5 cxb5 13. Bd3 Bb7 { The bishop joins through b7 once the position supports it. } *
+
+[Event "Slav: an early bishop can expose b7"]
+[Site "Study excerpt"]
+[Date "2023.06.24"]
+[Round "20"]
+[White "ezevallos"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "99"]
+[StudyId "slav-warning"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 99. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 2000-2200 ELO - watch this game from about 0:20: https://www.youtube.com/watch?v=mKmkrye5lUs&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=20s } 1. d4 c6 2. c4 d5 3. Nc3 Nf6 4. e3 Bg4 { A risky early bishop sortie in this exact Slav move order. Compare 4...e6 in the analysis variation. } ( 4... e6 { Engine-checked alternative to the played 4...Bg4; keeping Bc8 at home protects b7 for now. } ) 5. f3 Bh5 6. cxd5 cxd5 7. Qb3 { The queen attacks both pawns; a generic bishop-out-first rule is inadequate. The game continued ...e6 Qxb7 and Black had to recover from a pawn deficit. } 7... e6 8. Qxb7 { Played continuation: White wins b7. The earlier bishop sortie needed a concrete answer to Qb3. } *
+
+[Event "A successful attack is not necessarily a sound sacrifice"]
+[Site "Study excerpt"]
+[Date "2023.05.12"]
+[Round "21"]
+[White "arsen265"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "20"]
+[StudyId "greek-gift"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 20. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 600-800 ELO - watch this game from about 56:00: https://www.youtube.com/watch?v=YDUfNGkU3GA&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=3360s } 1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Nc3 Nc6 5. Bb5 Bf5 6. Nf3 e6 7. Qe2 Nf6 8. Ne5 Rc8 9. O-O Bd6 10. Nxc6 bxc6 11. Bd3 O-O 12. Bxf5 exf5 13. Re1 Re8 14. Qd2 Bxh2+ { Played, but not recommended: Stockfish favors White after accurate defense. Keep this as a calculation exercise, not a repertoire sacrifice. } 15. Kxh2 Ng4+ { White to move: 16.Kh3 is the critical defense. The analysis variation is separate from the game, which continued 16.Kg1. } 16. Kh3 ( 16. Kg1 Qh4 17. Kf1 Nh2+ 18. Kg1 Ng4 19. f3 Qh2+ 20. Kf1 Qh1# { The game continuation, ending in mate. White's cooperation does not validate the initial sacrifice. } ) 16... Qd6 17. g3 Qg6 18. Rxe8+ Rxe8 19. Qg5 { Engine-checked illustrative defense. White has the better position; ...Bxh2+ was not a forced winning sacrifice. } *
+
+[Event "Advance: the queen sees h4 too"]
+[Site "Study excerpt"]
+[Date "2023.05.15"]
+[Round "22"]
+[White "MagnusJansohn"]
+[Black "PoojaFan69"]
+[Result "*"]
+[SourceGame "58"]
+[StudyId "knight-h4"]
+[Annotator "Chessbrah speedrun opening guides"]
+
+{ Editorial study excerpt from source game 58. Result * means this chapter ends before the game; it does not change the source result. Annotations and analysis variations are editorial, not verbatim speech. Eric's Caro-Kann Speedrun, 1200-1400 ELO - watch this game from about 1:02:20: https://www.youtube.com/watch?v=HI0Q1obUbXA&list=PLUjxDD7HNNTjVEZ_1I8E28uav9t_ltDKX&t=3740s } 1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Nh4 { The knight attacks Bf5 but is undefended on the d8-h4 diagonal. 5...Qxh4 wins it; 6.g3 Qe4+ forks king and rook. } 5... Qxh4 6. g3 Qe4+ 7. Be2 Qxh1+ { Played continuation: the queen wins the knight, then forks king and rook. White could defend more stubbornly than 6.g3. } *

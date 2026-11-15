@@ -1,0 +1,435 @@
+[
+  {
+    "id": "advance-c5",
+    "diagram": "diagram-01-advance-c5.svg",
+    "game": 1,
+    "ply": 10,
+    "title": "Advance: challenge the centre immediately",
+    "caption": "After 5...Bxc5: the c-pawn has been exchanged for White's d-pawn. Develop and pressure e5; this is not the ...Bf5 structure.",
+    "arrows": [
+      "d5d4"
+    ],
+    "highlights": [
+      "e5"
+    ],
+    "fen": "rnbqk1nr/pp3ppp/4p3/2bpP3/8/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 6",
+    "comments": {
+      "6": "Eric also plays 3...Bf5 in this run. Here ...c5 immediately challenges d4.",
+      "8": "Recover the pawn through development; do not confuse this position with a Slav pawn grab.",
+      "10": "The bishop recovers c5. Black now has the d-pawn; White no longer does."
+    }
+  },
+  {
+    "id": "advance-bf5",
+    "diagram": "diagram-02-advance-bf5.svg",
+    "game": 84,
+    "ply": 16,
+    "title": "Advance: bishop outside the pawn chain",
+    "caption": "After 8...Nc6: pressure d4 with the c5-pawn and knight. The g8-knight still needs a route that respects e5.",
+    "arrows": [
+      "c5d4",
+      "c6d4"
+    ],
+    "highlights": [
+      "e5"
+    ],
+    "fen": "r2qk1nr/pp2bppp/2n1p1b1/2ppP1B1/3P4/2PB1N2/PP3PPP/RN1Q1RK1 w kq - 6 9",
+    "comments": {
+      "6": "Develop the light-squared bishop before closing its diagonal with ...e6.",
+      "10": "The ...c5 break attacks the base of White's pawn chain.",
+      "12": "Keeping the bishop invites Bxg6 hxg6, opening the h-file. It is a structural choice, not a forced attack."
+    }
+  },
+  {
+    "id": "early-nf3",
+    "diagram": "diagram-03-early-nf3.svg",
+    "game": 12,
+    "ply": 16,
+    "title": "Early Nf3: the ...Bg4 route",
+    "caption": "After 8...Nf5: the knight has used e7 because e5 controls f6. Both knights bear on d4.",
+    "arrows": [
+      "f5d4",
+      "c6d4"
+    ],
+    "highlights": [],
+    "fen": "r2qkb1r/pp3ppp/2n1p3/2ppPn2/3P2b1/2P1BN2/PP2BPPP/RN1Q1RK1 w kq - 3 9",
+    "comments": {
+      "6": "With a white knight on f3, Eric uses ...Bg4 before ...e6.",
+      "12": "The c-pawn has left c6; the b8-knight can now use that square.",
+      "16": "An example of ...Nge7-f5. Check g4 and the bishop's retreat squares before copying it."
+    }
+  },
+  {
+    "id": "bishop-shelter",
+    "diagram": "diagram-04-bishop-shelter.svg",
+    "game": 55,
+    "ply": 8,
+    "title": "Advance h4: give the bishop a retreat",
+    "caption": "After 4...h6: h7 is available if the bishop retreats through g6. White can still expand; this move is not a ban on g4.",
+    "arrows": [
+      "f5g6",
+      "g6h7"
+    ],
+    "highlights": [],
+    "fen": "rn1qkbnr/pp2ppp1/2p4p/3pPb2/3P3P/8/PPP2PP1/RNBQKBNR w KQkq - 0 5",
+    "comments": {
+      "8": "A retreat-square move against h4. Do not close the diagonal with ...e6 without checking g4 and h5."
+    }
+  },
+  {
+    "id": "advance-c4",
+    "diagram": "diagram-05-advance-c4.svg",
+    "game": 113,
+    "ply": 24,
+    "title": "Advance c4: occupy d5 with a piece",
+    "caption": "After 12...Ned5: ...dxc4 and ...Nb6 cleared d5 for the e7-knight. The remaining d4-pawn is a potential target.",
+    "arrows": [
+      "d5c3",
+      "b6d5"
+    ],
+    "highlights": [
+      "d4"
+    ],
+    "fen": "r2qkb1r/pp3ppb/1np1p2p/3nP2P/3P4/1BN1B1N1/PP3PP1/R2QK2R w KQkq - 3 13",
+    "comments": {
+      "16": "By exchanging the d5-pawn, Black creates a d5-square for a piece.",
+      "18": "...Nb6 gains time against the bishop and supports d5.",
+      "24": "The e7-knight reaches d5. This is a plan from this specific pawn structure, not a compulsory sequence."
+    }
+  },
+  {
+    "id": "exchange",
+    "diagram": "diagram-06-exchange.svg",
+    "game": 29,
+    "ply": 22,
+    "title": "Exchange with Nc3: active bishops and the c-file",
+    "caption": "After 11...Rc8: c6 has become available for the knight and the c-file is half-open. ...Na5-c4 is a possible later route.",
+    "arrows": [
+      "c6a5",
+      "a5c4"
+    ],
+    "highlights": [
+      "c2"
+    ],
+    "fen": "2rq1rk1/pp3ppp/2nbp3/3p1n2/3P4/P1N1BN1P/1PPQ1PP1/R3K2R w KQ - 2 12",
+    "comments": {
+      "6": "Recapture with the c-pawn: c6 becomes a knight square and the c-file becomes half-open.",
+      "10": "No knight on f3 to pin yet, so the bishop develops to f5.",
+      "16": "With the f8-bishop already on d6, ...Nge7 does not block it.",
+      "18": "The recapture improves the knight; doubled pawns are not inevitable after Bxf5.",
+      "22": "Use the file that actually exists. This game later demonstrates ...Na5-c4."
+    }
+  },
+  {
+    "id": "exchange-fianchetto",
+    "diagram": "diagram-07-exchange-fianchetto.svg",
+    "game": 90,
+    "ply": 24,
+    "title": "Exchange Bd3 and c3: the fianchetto plan",
+    "caption": "After 12...e6: the doubled f-pawns help control e4 and the g-file is open. Both kings are castled; king safety still needs calculation.",
+    "arrows": [
+      "f6e4"
+    ],
+    "highlights": [
+      "g7"
+    ],
+    "fen": "r4rk1/ppq2pbp/2n1pn2/3p1pB1/3P4/2P2N1P/PP1N1PP1/R2QR1K1 w - - 0 13",
+    "comments": {
+      "10": "Eric uses ...Qc7 to discourage Bf4 by claiming the c7-f4 diagonal.",
+      "16": "An alternative to the ...Bd6 setup: develop on g7.",
+      "22": "This is g7xf5, not e6xf5. The g-file opens and the pawn on f5 controls e4.",
+      "24": "The structure supports ...Ne4. ...Kh8 and ...Rg8 are possible follow-ups, not automatic moves."
+    }
+  },
+  {
+    "id": "pin-warning",
+    "diagram": "diagram-08-pin-warning.svg",
+    "game": 20,
+    "ply": 13,
+    "title": "Exchange: two pins change development",
+    "caption": "After 7.Qe2: Nc6 is pinned by Bb5 and the e6-pawn is pinned by Qe2. The study variation uses ...Ne7 instead of Eric's ...Nf6.",
+    "arrows": [
+      "b5c6",
+      "e2e6"
+    ],
+    "highlights": [
+      "d5"
+    ],
+    "fen": "r2qkbnr/pp3ppp/2n1p3/1B1p1b2/3P4/2N2N2/PPP1QPPP/R1B1K2R b KQkq - 1 7",
+    "comments": {
+      "13": "Black to move. ...Bd6 allows Nxd5: the e6-pawn cannot legally recapture because of Qe2. Eric plays ...Nf6, but Stockfish prefers alternatives including ...Ne7; see the analysis variation."
+    }
+  },
+  {
+    "id": "two-knights",
+    "diagram": "diagram-09-two-knights.svg",
+    "game": 7,
+    "ply": 10,
+    "title": "Two Knights: the simple bishop exchange",
+    "caption": "After 5...e6: Eric has exchanged the g4-bishop for the knight. Black is solid but White owns the bishop pair.",
+    "arrows": [
+      "b8d7"
+    ],
+    "highlights": [],
+    "fen": "rn1qkbnr/pp3ppp/2p1p3/3p4/4P3/2N2Q1P/PPPP1PP1/R1B1KB1R w KQkq - 0 6",
+    "comments": {
+      "6": "...Bg4 is Eric's recurring response to the Two Knights.",
+      "8": "The simpler choice against h3: exchange rather than keep a tactically demanding pin.",
+      "10": "Finish development; giving up the bishop pair is a real concession, not free equality."
+    }
+  },
+  {
+    "id": "two-knights-trap",
+    "diagram": "diagram-10-two-knights-trap.svg",
+    "game": 23,
+    "ply": 15,
+    "title": "Two Knights: do not recapture automatically",
+    "caption": "After 8.Nxc6: the knight attacks Qd8 and the c6-knight is gone. ...Qb6 is the tactical escape; ...bxc6 is the game's mistake.",
+    "arrows": [
+      "d8b6"
+    ],
+    "highlights": [
+      "c6"
+    ],
+    "fen": "r2qkbnr/pp2pppp/2N5/1B1p4/8/2N4P/PPPP1PP1/R1BbK2R b KQkq - 0 8",
+    "comments": {
+      "12": "...Nc6 is playable here. Do not mislabel this developing move as the losing error.",
+      "14": "The apparent queen sacrifice must be calculated. Stockfish supports accepting it in this exact position.",
+      "15": "The correction is 8...Qb6. After 8...bxc6 9.Bxc6+ Qd7 10.Bxd7+ Kxd7 11.Kxd1, Black has lost a pawn. Eric explains the ...Qb6 resource in the post-game discussion."
+    }
+  },
+  {
+    "id": "classical",
+    "diagram": "diagram-11-classical.svg",
+    "game": 104,
+    "ply": 26,
+    "title": "Classical: exchange the e4-pawn, develop the bishop",
+    "caption": "After 13...O-O: Black has completed development. White has space; the next job is to prepare a central break, not sit indefinitely.",
+    "arrows": [
+      "c6c5"
+    ],
+    "highlights": [
+      "d4"
+    ],
+    "fen": "r2q1rk1/pp1nbpp1/2p1pn1p/7P/2PP1B2/3Q1NN1/PP3PP1/R4RK1 w - - 1 14",
+    "comments": {
+      "6": "When White supports e4 with Nc3, ...dxe4 leads to the normal Caro-Kann main lines.",
+      "8": "The classical bishop development.",
+      "12": "Make h7 available for the bishop before h5.",
+      "18": "Exchange on d3 when the bishop is challenged.",
+      "26": "A complete short-castled model. The ...c5 arrow is a plan to evaluate, not a forced next move."
+    }
+  },
+  {
+    "id": "karpov",
+    "diagram": "diagram-12-karpov.svg",
+    "game": 128,
+    "ply": 22,
+    "title": "...Nd7: develop the c8-bishop later",
+    "caption": "After 11...c5: Black developed the bishop via b7 and challenged d4. The c6-pawn did not permanently imprison Nb8.",
+    "arrows": [
+      "c5d4",
+      "b7d5"
+    ],
+    "highlights": [],
+    "fen": "r2q1rk1/pb1n1ppp/1p1bpn2/2p5/2PP4/1P1B1NN1/PB3PPP/R2Q1RK1 w - - 0 12",
+    "comments": {
+      "8": "The ...Nd7 system delays the c8-bishop. It is a separate branch, not a failure to follow ...Bf5.",
+      "12": "The e-pawn supports development and guards d5.",
+      "20": "...b6 and ...Bb7 solve the remaining bishop problem.",
+      "22": "The central break arrives after castling and development."
+    }
+  },
+  {
+    "id": "karpov-sacrifice",
+    "diagram": "diagram-13-karpov-sacrifice.svg",
+    "game": 117,
+    "ply": 14,
+    "title": "...Nd7: calculate the sacrifice on f7",
+    "caption": "After 7...Bd6: White can try Nxf7, but Stockfish does not support the sacrifice here. Eric's later loss is not an opening refutation.",
+    "arrows": [
+      "g5f7"
+    ],
+    "highlights": [
+      "f7"
+    ],
+    "fen": "r1bqk2r/pp1n1ppp/2pbpn2/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R w KQkq - 2 8",
+    "comments": {
+      "14": "This developing move is playable. 8.Nxf7 is a speculative sacrifice, not a forced win for White. The analysis variation shows Black accepting and reorganizing."
+    }
+  },
+  {
+    "id": "bronstein",
+    "diagram": "diagram-14-bronstein.svg",
+    "game": 97,
+    "ply": 14,
+    "title": "...Nf6 and ...gxf6: activity for structure",
+    "caption": "After 7...e6: the f6-pawn controls e5, the g-file is open, and the light-squared bishop is developed. Black must still solve king safety.",
+    "arrows": [
+      "f6e5"
+    ],
+    "highlights": [
+      "g7"
+    ],
+    "fen": "rn1qkb1r/pp3p1p/2p1pp2/5b2/3P1B2/5N2/PPP2PPP/R2QKB1R w KQkq - 0 8",
+    "comments": {
+      "8": "Eric tries ...Nf6 as well as ...Bf5 and ...Nd7.",
+      "10": "...gxf6 accepts doubled f-pawns and opens the g-file. ...exf6 is a different structure; do not combine their plans.",
+      "14": "Development before exploitation. This is not a license to grab every queenside pawn."
+    }
+  },
+  {
+    "id": "hillbilly",
+    "diagram": "diagram-15-hillbilly.svg",
+    "game": 14,
+    "ply": 16,
+    "title": "Early Bc4: gain a tempo in the centre",
+    "caption": "After 8...Bd6: ...d5 chased the bishop and Black developed with threats. The bishop on b3 meets a defended d5-pawn.",
+    "arrows": [
+      "d5d4"
+    ],
+    "highlights": [
+      "b3"
+    ],
+    "fen": "r2qk2r/pp3ppp/2nbpn2/3p4/6b1/1BNP2Q1/PPP2PPP/R1B1K1NR w KQkq - 1 9",
+    "comments": {
+      "4": "Attack Bc4 while occupying the centre.",
+      "6": "The pawn recapture supports the centre and clears c6.",
+      "12": "Develop the bishop before ...e6. Qf3 does not make f7 fall automatically.",
+      "16": "A possible ...d4 gains time against Nc3, but always check the exact queen and knight squares."
+    }
+  },
+  {
+    "id": "panov",
+    "diagram": "diagram-16-panov.svg",
+    "game": 136,
+    "ply": 22,
+    "title": "Accelerated Panov: activity against the isolated pawn",
+    "caption": "After 11...Bb7: White has an isolated d4-pawn but active pieces. Black develops first; an isolated pawn is a target, not a forced win.",
+    "arrows": [
+      "c6d4"
+    ],
+    "highlights": [
+      "d4"
+    ],
+    "fen": "r2q1rk1/pb2bppp/1pn1p3/3n4/3P4/1BN2N2/PP3PPP/R1BQR1K1 w - - 2 12",
+    "comments": {
+      "8": "...Nf6 develops before recovering d5. This avoids an early queen chase.",
+      "10": "Recover the pawn with a knight.",
+      "22": "...b6 and ...Bb7 complete the setup. Contain d4-d5 and compare exchanges carefully."
+    }
+  },
+  {
+    "id": "fantasy",
+    "diagram": "diagram-17-fantasy.svg",
+    "game": 33,
+    "ply": 12,
+    "title": "Fantasy: Eric's ...e6 response",
+    "caption": "After 6...Nh6: ...e6 and ...c5 produced a French-like centre. The knight eyes f5; the light-squared bishop remains inside the chain.",
+    "arrows": [
+      "h6f5"
+    ],
+    "highlights": [
+      "e1"
+    ],
+    "fen": "r1bqkb1r/pp3ppp/2n1p2n/2ppP3/3P4/2P1BP2/PP4PP/RN1QKBNR w KQkq - 3 7",
+    "comments": {
+      "6": "A practical response to 3.f3 shown in the run. It allows a French-like structure rather than insisting on an outside bishop.",
+      "8": "After e5, ...c5 attacks d4.",
+      "12": "A route to f5. The position also contains ...Qh4+ ideas because f3 weakened that diagonal; they are not universally winning."
+    }
+  },
+  {
+    "id": "quiet-centre",
+    "diagram": "diagram-18-quiet-centre.svg",
+    "game": 102,
+    "ply": 18,
+    "title": "Quiet d3: take the centre when allowed",
+    "caption": "After 9...Nbd7: Black has e5 and d5, developed the kingside and castled. ...Re8 supports the centre before further expansion.",
+    "arrows": [
+      "d5d4"
+    ],
+    "highlights": [
+      "e5"
+    ],
+    "fen": "r1bqr1k1/pp1n1ppp/3b1n2/3pp3/8/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 10",
+    "comments": {
+      "6": "Against this quiet d3/Nd2 system, Eric takes additional space with ...e5.",
+      "18": "Because c6 remains occupied by a pawn, the b8-knight develops to d7. Keep the centre defended before pushing farther."
+    }
+  },
+  {
+    "id": "slav",
+    "diagram": "diagram-19-slav.svg",
+    "game": 103,
+    "ply": 26,
+    "title": "Against d4 and c4: a separate Slav branch",
+    "caption": "After 13...Bb7: ...dxc4 and ...b5 allowed the bishop to develop actively. This is a Semi-Slav structure, not a Caro-Kann.",
+    "arrows": [
+      "b7e4"
+    ],
+    "highlights": [
+      "c4"
+    ],
+    "fen": "r2q1rk1/1b1nbpp1/p3pn1p/1p6/3P3B/1QNBPN2/1P3PPP/3RK2R w K - 2 14",
+    "comments": {
+      "8": "...e6 before developing Bc8 is legitimate here: pressure on d5 and b7 changes priorities.",
+      "20": "Only now release the central tension.",
+      "22": "...b5 gains time against the bishop.",
+      "26": "The bishop joins through b7 once the position supports it."
+    }
+  },
+  {
+    "id": "slav-warning",
+    "diagram": "diagram-20-slav-warning.svg",
+    "game": 99,
+    "ply": 13,
+    "title": "Slav: an early bishop can expose b7",
+    "caption": "After 7.Qb3: the queen attacks b7 and d5. Early ...Bg4 has created a concrete defensive problem.",
+    "arrows": [
+      "b3b7",
+      "b3d5"
+    ],
+    "highlights": [],
+    "fen": "rn1qkb1r/pp2pppp/5n2/3p3b/3P4/1QN1PP2/PP4PP/R1B1KBNR b KQkq - 1 7",
+    "comments": {
+      "8": "A risky early bishop sortie in this exact Slav move order. Compare 4...e6 in the analysis variation.",
+      "13": "The queen attacks both pawns; a generic bishop-out-first rule is inadequate. The game continued ...e6 Qxb7 and Black had to recover from a pawn deficit."
+    }
+  },
+  {
+    "id": "greek-gift",
+    "diagram": "diagram-21-greek-gift.svg",
+    "game": 20,
+    "ply": 30,
+    "title": "A successful attack is not necessarily a sound sacrifice",
+    "caption": "After 15...Ng4+: White should consider 16.Kh3, not only retreat. The game's 16.Kg1 allowed the attack to flourish.",
+    "arrows": [
+      "h2h3"
+    ],
+    "highlights": [],
+    "fen": "2rqr1k1/p4ppp/2p5/3p1p2/3P2n1/2N5/PPPQ1PPK/R1B1R3 w - - 1 16",
+    "comments": {
+      "28": "Played, but not recommended: Stockfish favors White after accurate defense. Keep this as a calculation exercise, not a repertoire sacrifice.",
+      "30": "White to move: 16.Kh3 is the critical defense. The analysis variation is separate from the game, which continued 16.Kg1."
+    }
+  },
+  {
+    "id": "knight-h4",
+    "diagram": "diagram-22-knight-h4.svg",
+    "game": 58,
+    "ply": 9,
+    "title": "Advance: the queen sees h4 too",
+    "caption": "After 5.Nh4: e7 is empty, so Qd8 can take the undefended knight on h4. Bishop attacks do not override loose pieces.",
+    "arrows": [
+      "d8h4"
+    ],
+    "highlights": [
+      "h4"
+    ],
+    "fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P3N/8/PPP2PPP/RNBQKB1R b KQkq - 1 5",
+    "comments": {
+      "9": "The knight attacks Bf5 but is undefended on the d8-h4 diagonal. 5...Qxh4 wins it; 6.g3 Qe4+ forks king and rook."
+    }
+  }
+]
