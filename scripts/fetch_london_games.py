@@ -3,7 +3,8 @@
 
 Python standard library only. Serial requests; no login or private endpoints.
 The historical video handle systemplayer was renamed systematic. A new,
-unrelated account now uses systemplayer; identity is checked before export.
+unrelated account now uses systemplayer; identity is checked before export. The default destination is the unchanged
+source file; run enrich_london_video_links.py to regenerate the linked PGN.
 """
 import argparse
 import hashlib
@@ -27,7 +28,7 @@ def get(url):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=ROOT / "pgn/london-system-games.pgn")
+    parser.add_argument("--output", type=Path, default=ROOT / "sources/london-system-original-games.pgn")
     args = parser.parse_args()
     profile = get(f"https://api.chess.com/pub/player/{ACCOUNT}")
     if profile.get("player_id") != PLAYER_ID:

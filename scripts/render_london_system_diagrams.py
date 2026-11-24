@@ -36,10 +36,14 @@ def main():
                              "Result": "*", "SourceGame": str(item["game"]),
                              "SourceURL": source.headers["Link"], "StudyId": item["id"],
                              "Annotator": "Chessbrah speedrun opening guides"})
+        for name in ["YouTubeEpisode", "YouTubeURL", "YouTubeEpisodeURL", "YouTubeTimestamp",
+                     "YouTubeLinkType", "LinkPrecision"]:
+            if name in source.headers:
+                game.headers[name] = source.headers[name]
         game.comment = ("Editorial study excerpt from Aman Hambleton's London series. "
                         "The video handle was systemplayer; the recovered archive uses systematic. "
                         "Result * marks an excerpt, not a change to the actual game result. "
-                        "Comments and analysis variations are editorial. " + source.headers["Link"])
+                        "Comments and analysis variations are editorial. " + source.headers["Link"] + " " + source.comment)
         node = game
         for ply, move in enumerate(list(source.mainline_moves())[:item["ply"]], 1):
             node = node.add_main_variation(move)

@@ -24,7 +24,7 @@ def main():
     parser.add_argument("--only", action="append", help="Run only these job IDs; repeat for multiple IDs.")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    source = ROOT / "pgn/london-system-games.pgn"
+    source = ROOT / "sources/london-system-original-games.pgn"
     games = []
     with source.open() as stream:
         while (game := chess.pgn.read_game(stream)) is not None:

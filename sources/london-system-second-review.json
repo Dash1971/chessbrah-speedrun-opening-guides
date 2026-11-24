@@ -1590,5 +1590,6 @@
     }
   ],
   "total_searched_nodes": 1400047794,
-  "scope": "22 game-derived diagram positions at 10 million nodes each, and 18 targeted searches at 30\u2013100 million nodes. Single PV, full source move history, cleared hash before each search. Not a full-game audit."
+  "scope": "22 game-derived diagram positions at 10 million nodes each, and 18 targeted searches at 30\u2013100 million nodes. Single PV, full source move history, cleared hash before each search. Not a full-game audit.",
+  "source_pgn": "sources/london-system-original-games.pgn"
 }

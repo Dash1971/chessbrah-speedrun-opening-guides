@@ -57,14 +57,44 @@ def main():
     corpus = read(corpus_path)
     manifest = json.loads((ROOT / "sources/london-system-positions.json").read_text())
     provenance = json.loads((ROOT / "sources/london-system-games.json").read_text())
+    source_path = ROOT / provenance["original_source_pgn"]
+    assert hashlib.sha256(source_path.read_bytes()).hexdigest() == provenance["source_corpus_sha256"]
+    originals = read(source_path)
+    video_links = json.loads((ROOT / "sources/london-system-video-links.json").read_text())
+    assert len(originals) == len(video_links["games"]) == 130
     excerpts = read(ROOT / "pgn/london-system-repertoire.pgn")
     assert hashlib.sha256(corpus_path.read_bytes()).hexdigest() == provenance["corpus_sha256"]
     assert len(corpus) == 130 and len(manifest) == len(excerpts) == 22
-    for game, info in zip(corpus, provenance["games"]):
+    for game, original, video, info in zip(corpus, originals, video_links["games"], provenance["games"]):
         assert game.headers["Link"] == info["url"]
         assert game.headers["TimeControl"] == "300"
         assert game.headers["White"].lower() == "systematic"
         assert game.headers["Result"] == info["result"]
+        for name, value in original.headers.items():
+            assert game.headers[name] == value, (info["game"], name)
+        assert list(game.mainline_moves()) == list(original.mainline_moves())
+        for node, source_node in zip(game.mainline(), original.mainline()):
+            assert node.comment == source_node.comment
+            assert node.starting_comment == source_node.starting_comment
+            assert node.nags == source_node.nags
+        assert video["game"] == info["game"]
+        assert video["chesscom_url"] == info["url"]
+        assert game.headers["YouTubeURL"] == video["url"]
+        assert game.headers["YouTubeEpisode"] == str(video["episode"])
+        assert game.headers["LinkPrecision"] == video["precision"] == "game-point"
+        assert game.headers["YouTubeLinkType"] == video["link_type"] == "play-or-review"
+        assert video["url"] in game.comment
+        query = parse_qs(urlparse(video["url"]).query)
+        assert query["v"] == [video["video_id"]]
+        assert query["t"] == [str(video["second"]) + "s"]
+        episode = provenance["videos"][video["episode"] - 1]
+        assert video["video_id"] == episode["id"]
+        assert 0 <= video["second"] < episode["duration"]
+        numbers = list(map(int, game.headers["YouTubeTimestamp"].split(":")))
+        seconds = 0
+        for number in numbers:
+            seconds = seconds * 60 + number
+        assert seconds == video["second"]
         board = game.board()
         sans = []
         for move in game.mainline_moves():
@@ -83,6 +113,10 @@ def main():
         assert excerpt.headers["StudyId"] == item["id"]
         assert excerpt.headers["SourceGame"] == str(item["game"])
         assert excerpt.headers["Result"] == "*"
+        for name in ["YouTubeEpisode", "YouTubeURL", "YouTubeEpisodeURL", "YouTubeTimestamp",
+                     "YouTubeLinkType", "LinkPrecision"]:
+            assert excerpt.headers[name] == source.headers[name]
+        assert excerpt.headers["YouTubeURL"] in excerpt.comment
         excerpt_moves = list(excerpt.mainline_moves())
         assert excerpt_moves == source_moves[:len(excerpt_moves)], item["id"]
         svg_path = ROOT / "guides/assets/london-system" / item["diagram"]
@@ -134,7 +168,7 @@ def main():
         assert not (board.pieces_mask(chess.PAWN, chess.WHITE) & mask)
         assert board.pieces_mask(chess.PAWN, chess.BLACK) & mask
     review = json.loads((ROOT / "sources/london-system-second-review.json").read_text())
-    assert review["source_sha256"] == provenance["corpus_sha256"]
+    assert review["source_sha256"] == provenance["source_corpus_sha256"]
     assert len(review["results"]) == len({x["id"] for x in review["results"]}) == 40
     engine_pv_moves = 0
     for result in review["results"]:
@@ -148,7 +182,7 @@ def main():
             assert board.is_valid(), result["id"]
             engine_pv_moves += 1
     game_count = move_count = 0
-    for path in sorted((ROOT / "pgn").glob("*.pgn")):
+    for path in sorted(ROOT.rglob("*.pgn")):
         for game in read(path):
             game_count += 1
             stack = [game]
@@ -199,7 +233,8 @@ def main():
           complete_initial_position_prose_lines=prose_lines,
           svg_piece_placements=piece_placements, exact_caption_move_labels=len(manifest),
           contextual_tactical_lines=len(tactical_lines), reviewed_engine_searches=len(review["results"]),
-          legal_engine_pv_moves=engine_pv_moves), indent=2))
+          legal_engine_pv_moves=engine_pv_moves, games_with_video_links=len(corpus),
+          excerpts_with_video_links=len(excerpts), original_game_data_preserved=len(originals)), indent=2))
 
 
 if __name__ == "__main__":

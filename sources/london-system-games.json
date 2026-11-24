@@ -9,7 +9,7 @@
     "intervening_bullet_white_games": 47,
     "later_activity_year": 2024
   },
-  "corpus_sha256": "ca61dda5bf1d4059439db5eb93423742379720985a8d0856d636c6d733f82184",
+  "corpus_sha256": "f9565a5b8f38272459132c707255579385b89d42c1893be1c61b77c8e90c7d5c",
   "archives": [
     {
       "url": "https://api.chess.com/pub/player/systematic/games/2022/06",
@@ -2067,5 +2067,9 @@
       "part": 18,
       "duration": 4999
     }
-  ]
+  ],
+  "original_source_pgn": "sources/london-system-original-games.pgn",
+  "source_corpus_sha256": "ca61dda5bf1d4059439db5eb93423742379720985a8d0856d636c6d733f82184",
+  "video_links": "sources/london-system-video-links.json",
+  "metadata_enrichment": "YouTube headers and opening comments only; original headers, moves, clocks and results retained."
 }

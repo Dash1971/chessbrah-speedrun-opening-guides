@@ -18,7 +18,7 @@ The review found and corrected several explanations:
 - The queen-chase line is presented as a **repetition resource, not a forced draw**. Black can deviate.
 - The Greek-gift discussion includes both forward king escapes and the actual mating finish after ...Kh8. The rook-sacrifice discussion makes clear that the game's Bd3 still leaves White better at the tested limit.
 
-The complete 130-game corpus is unchanged. Its SHA-256 remains `ca61dda5bf1d4059439db5eb93423742379720985a8d0856d636c6d733f82184`. All generated study chapters and affected SVG captions were regenerated from the corrected manifest.
+The recorded game data is unchanged. The original API-text export is now preserved in [london-system-original-games.pgn](london-system-original-games.pgn), while the published game PGN adds video metadata. The original source SHA-256 remains `ca61dda5bf1d4059439db5eb93423742379720985a8d0856d636c6d733f82184`. All generated study chapters and affected SVG captions were regenerated from the corrected manifest.
 
 ## Latest engine method
 
@@ -116,9 +116,10 @@ At the displayed position after **5.e4**, the 10M-node recheck selects **5...Qxd
 - All **40 new engine records**, their source positions, restricted candidates and returned PV moves.
 - Every repository PGN and variation, plus local links, guide anchors, image paths and bounded video timestamps.
 
-The complete repository replay passes for **1,580 games/study chapters and 119,332 legal moves including variations**. All 22 boards were rendered and visually inspected again. The original game corpus is unchanged.
+The published `pgn/` collections contain 1,580 game/study entries. Including the separately preserved 130-game source copy, the complete repository replay passes for **1,710 entries and 128,445 legal moves including variations**; this count includes duplicate source material, not 1,710 unique games. All 22 boards were rendered and visually inspected again. Original headers, game scores, clocks and results are preserved; the enriched PGN adds video headers and opening comments.
 
 ```sh
+python3 scripts/enrich_london_video_links.py
 python3 scripts/render_london_system_diagrams.py
 python3 scripts/check_london_system.py
 python3 scripts/review_london_tactics.py --output sources/london-system-second-review.json
@@ -127,3 +128,9 @@ python3 scripts/review_london_tactics.py --output sources/london-system-second-r
 The engine script resumes already-completed jobs after checking their source hash, position, candidate and node limit. Use a fresh output path to recompute them. It requires a local Stockfish executable and accepts `--engine /path/to/stockfish`. The diagrams and critical sections can be run separately with `--section`.
 
 The [initial publication engine record](london-system-engine.json) is retained for traceability. Its smaller searches are superseded by the second review where the same claim was checked. The original opening screen covered the first 15 White moves of each selected game: **1,933 move instances and 1,472 distinct position/move pairs**, at 50,000 nodes for unrestricted and played-move searches. That screen was a diagnostic, not a full-game verdict.
+
+## PGN video-link follow-up — 2026-11-24
+
+The original release omitted the repo’s established YouTube metadata convention. The follow-up checked a sampled video point for each of the 130 games, including historical opponent-handle changes, and added the links in headers and opening comments. All 22 study excerpts inherit the corresponding reference. The [video-link manifest](london-system-video-links.json) defines the `game-point` precision label and makes no exact game-start claim. Teaching references remain distinct.
+
+The checker now compares the enriched games with the unchanged original source, including every original header and every move comment/clock annotation, and checks all 152 embedded URLs, episode assignments, timestamp values and runtime bounds. The preserved original source hash remains the engine-review input hash, so metadata enrichment does not invalidate or require repeating the tactical searches.
