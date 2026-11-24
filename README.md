@@ -6,6 +6,7 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 
 ## Guides
 
+- [The London System, as Aman Hambleton Plays It](guides/london-system.md)
 - [The Caro-Kann, as Eric Hansen Plays It](guides/eric-caro-kann.md)
 - [Building Chess Habits V2, as Aman Hambleton Teaches It](guides/building-habits-v2.md)
 - [Building Chess Habits V1, as Aman Hambleton Teaches It](guides/building-habits-v1.md)
@@ -21,6 +22,10 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 
 ## Study material
 
+- [Aman’s London — all 130 recovered five-minute games](pgn/london-system-games.pgn)
+- [Aman’s London — 22 annotated study chapters](pgn/london-system-repertoire.pgn)
+- [Aman’s London sources, account provenance and game index](sources/london-system.md)
+- [Aman’s London Stockfish findings and reproducible checks](sources/london-system-validation.md)
 - [Eric’s Caro-Kann — all 148 supplied games](pgn/eric-caro-kann-games.pgn)
 - [Eric’s Caro-Kann — 22 annotated study chapters](pgn/eric-caro-kann-repertoire.pgn)
 - [Eric’s Caro-Kann source and game index](sources/eric-caro-kann.md)
@@ -45,12 +50,14 @@ The aim is not to replace the videos. It is to preserve the teaching framework: 
 - [King's Indian Attack speedrun source index](sources/kings-indian-attack-speedrun.md)
 - [Review notes for the contributed Taimanov draft](REVIEW.md)
 
-Eric’s Caro-Kann guide adds 22 Black-oriented, game-derived diagrams, with Stockfish-checked tactical corrections and explicit distinctions between played moves and editorial analysis. Building Habits V2 adds 15 instructional boards across its four levels; V1 adds 14. The transcript-led Stonewall Attack, Stonewall Defense, and French guides add 41 diagrams: 13 White-oriented Stonewall Attack boards, 13 Black-oriented Stonewall Defense boards, and 15 Black-oriented French boards. The Taimanov guide includes 13 annotated boards; the Queen's Gambit adds 15; the Orangutan and King's Indian Attack add 16 each. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
+Aman’s London guide adds 22 White-oriented, game-derived diagrams and a directly recovered Chess.com corpus. Its source index explains the historical account rename and the exclusions needed to isolate the five-minute run. Eric’s Caro-Kann guide adds 22 Black-oriented, game-derived diagrams, with Stockfish-checked tactical corrections and explicit distinctions between played moves and editorial analysis. Building Habits V2 adds 15 instructional boards across its four levels; V1 adds 14. The transcript-led Stonewall Attack, Stonewall Defense, and French guides add 41 diagrams: 13 White-oriented Stonewall Attack boards, 13 Black-oriented Stonewall Defense boards, and 15 Black-oriented French boards. The Taimanov guide includes 13 annotated boards; the Queen's Gambit adds 15; the Orangutan and King's Indian Attack add 16 each. The SVGs are built from validated FENs or legal SAN sequences by the reproducible rendering scripts.
 
 To regenerate them:
 
 ```sh
 python3 -m pip install -r scripts/requirements.txt
+python3 scripts/render_london_system_diagrams.py
+python3 scripts/check_london_system.py
 python3 scripts/render_eric_caro_kann_diagrams.py
 python3 scripts/render_taimanov_diagrams.py
 python3 scripts/render_queens_gambit_diagrams.py

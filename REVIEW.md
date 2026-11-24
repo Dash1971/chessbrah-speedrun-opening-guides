@@ -134,3 +134,10 @@ Stockfish 18 screened 2,204 Black opening move instances (first 15 Black moves p
 - Bishop-out-first is conditional: early **h4** and Slav **Qb3** pressure require their own responses.
 
 Repository-wide validation parsed 1,428 games/chapters and checked 109,673 moves, including variations, without legality or board-validity errors. Every diagram replays an actual supplied game prefix and matches its recorded FEN. The source PGN checksum, engine settings/limits, full machine-readable results, reproduction script, and exact evidence limits are published in the [Caro-Kann validation report](sources/eric-caro-kann-validation.md).
+
+
+## London System addition — 2026-11-24
+
+Recovered Aman Hambleton’s 130 White five-minute games from Chess.com, tracing historical `systemplayer` to current `systematic` (player ID 188452309). Excluded 23 pre-reset White games, 47 bullet games, Black games and 2024 activity. Added a decision-based guide, 22 game-derived diagrams and annotated excerpts, complete game/source indices, per-game hashes, a serial retrieval script and an integrity checker. All 18 caption tracks were recovered; selected teaching passages informed the guide. Episode windows and the limits of frame matching are explicit.
+
+Stockfish checks qualify the symmetric `Nb5` tactic, identify the Greek-gift `Kg6` defense, support a rook sacrifice despite the game’s loss, and compare the poisoned-pawn `Ra1` and `c4` options. The report preserves search limits, scores and the distinction between played moves and editorial analysis. The deep checks do not claim full-game engine annotation.

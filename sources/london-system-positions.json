@@ -1,0 +1,703 @@
+[
+  {
+    "id": "core-setup",
+    "game": 25,
+    "ply": 13,
+    "title": "The c3 and Nd2 setup",
+    "caption": "After 7.Bd3: c3 holds d4, both knights are developed, and White can prepare a central break. Black can still gain queenside space.",
+    "fen": "rnbqk2r/1p3ppp/p2bpn2/2pp4/3P1B2/2PBPN2/PP1N1PPP/R2QK2R b KQkq - 5 7",
+    "arrows": [
+      "Gc3d4",
+      "Gd2e4"
+    ],
+    "diagram": "diagram-01-core-setup.svg",
+    "comments": {
+      "13": "After 7.Bd3: c3 holds d4, both knights are developed, and White can prepare a central break. Black can still gain queenside space."
+    },
+    "continuation": [
+      "c4",
+      "Bc2",
+      "b5",
+      "Bxd6",
+      "Qxd6",
+      "e4",
+      "Nfd7",
+      "O-O",
+      "Bb7",
+      "Re1"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "queen-guard",
+    "game": 60,
+    "ply": 8,
+    "title": "Why Nd2 often precedes Nf3",
+    "caption": "After 4...Nh5?: the queen still sees h5 because the g1-knight has not gone to f3. Qxh5 wins the knight.",
+    "fen": "rnbqkb1r/ppp2ppp/4p3/3p3n/3P1B2/4P3/PPPN1PPP/R2QKBNR w KQkq - 2 5",
+    "arrows": [
+      "Gd1h5"
+    ],
+    "diagram": "diagram-02-queen-guard.svg",
+    "comments": {
+      "8": "After 4...Nh5?: the queen still sees h5 because the g1-knight has not gone to f3. Qxh5 wins the knight.",
+      "7": "Nd2 develops before Nf3. The queen still sees h5 until Ngf3 blocks the diagonal."
+    },
+    "continuation": [
+      "Qxh5",
+      "Be7",
+      "Bd3",
+      "g6",
+      "Qh6",
+      "Bf6",
+      "Ngf3",
+      "Nc6",
+      "c3",
+      "Qe7"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "space-c4",
+    "game": 7,
+    "ply": 15,
+    "title": "Quiet black centre: take more space",
+    "caption": "After 8.Be2: c4 and Nc3 use the space Black has conceded. Be2 avoids an ...e5-e4 tempo against Bd3.",
+    "fen": "rn1q1rk1/ppp1bppp/2bppn2/8/2PP1B2/2N1PN1P/PP2BPP1/R2QK2R b KQ - 4 8",
+    "arrows": [
+      "Gc4d5",
+      "Gc3e4"
+    ],
+    "diagram": "diagram-03-space-c4.svg",
+    "comments": {
+      "15": "After 8.Be2: c4 and Nc3 use the space Black has conceded. Be2 avoids an ...e5-e4 tempo against Bd3."
+    },
+    "continuation": [
+      "Re8",
+      "Bh2",
+      "e5",
+      "dxe5",
+      "dxe5",
+      "Bxe5",
+      "Qxd1+",
+      "Rxd1",
+      "Ne4",
+      "Nxe4"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "bishop-shelter",
+    "game": 11,
+    "ply": 14,
+    "title": "Prepare a home for the bishop",
+    "caption": "After 7...Na6: White has already used h3 and Bh2 to shelter the bishop before Black can advance ...e5 with tempo.",
+    "fen": "r1bqr1k1/ppp1ppbp/n2p1np1/8/3P4/2P1PN1P/PP3PPB/RN1QKB1R w KQ - 4 8",
+    "arrows": [
+      "Gh2e5"
+    ],
+    "diagram": "diagram-04-bishop-shelter.svg",
+    "comments": {
+      "14": "After 7...Na6: White has already used h3 and Bh2 to shelter the bishop before Black can advance ...e5 with tempo."
+    },
+    "continuation": [
+      "Be2",
+      "c5",
+      "O-O",
+      "cxd4",
+      "exd4",
+      "h6",
+      "Re1",
+      "Kh7",
+      "Nbd2",
+      "e5"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "symmetry-c4",
+    "game": 2,
+    "ply": 9,
+    "title": "Challenge an early ...Bf5",
+    "caption": "After 5.e4: ...dxc4 let White take central space while attacking the bishop on f5. Recover c4 and develop.",
+    "fen": "r2qkbnr/ppp1pppp/2n5/5b2/2pPPB2/2N5/PP3PPP/R2QKBNR b KQkq - 0 5",
+    "arrows": [
+      "Ge4f5"
+    ],
+    "diagram": "diagram-05-symmetry-c4.svg",
+    "comments": {
+      "9": "After 5.e4: ...dxc4 let White take central space while attacking the bishop on f5. Recover c4 and develop."
+    },
+    "continuation": [
+      "Bg6",
+      "d5",
+      "Nb4",
+      "Qa4+",
+      "Nc6",
+      "dxc6",
+      "bxc6",
+      "Qxc6+",
+      "Qd7",
+      "Qxa8+"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "nc6-hfile",
+    "game": 14,
+    "ply": 15,
+    "title": "An early ...Nc6 and an open h-file",
+    "caption": "After 8.hxg3: Black spent time exchanging the active bishop. The recapture opens the h-file and keeps f2 intact.",
+    "fen": "r1bqk2r/ppp2ppp/2n1pn2/8/2BP4/2N1P1P1/PP3PP1/R2QK1NR b KQkq - 0 8",
+    "arrows": [
+      "Gh1h7"
+    ],
+    "diagram": "diagram-06-nc6-hfile.svg",
+    "comments": {
+      "15": "After 8.hxg3: Black spent time exchanging the active bishop. The recapture opens the h-file and keeps f2 intact."
+    },
+    "continuation": [
+      "Qe7",
+      "Nf3",
+      "Bd7",
+      "Rc1",
+      "O-O-O",
+      "a3",
+      "a6",
+      "Qe2",
+      "Na5",
+      "Bxa6"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "symmetry-defense",
+    "game": 58,
+    "ply": 12,
+    "title": "Respect ...Qc8 as a defense",
+    "caption": "After 6...Qc8: b7 is defended without offering the queens an immediate b-file confrontation. Develop; there is no automatic tactic.",
+    "fen": "rnq1kb1r/pp3ppp/2p1pn2/3p1b2/2PP1B2/1QN1P3/PP3PPP/R3KBNR w KQkq - 2 7",
+    "arrows": [
+      "Gc8b7"
+    ],
+    "diagram": "diagram-07-symmetry-defense.svg",
+    "comments": {
+      "12": "After 6...Qc8: b7 is defended without offering the queens an immediate b-file confrontation. Develop; there is no automatic tactic."
+    },
+    "continuation": [
+      "Rc1",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "Nbd7",
+      "h3",
+      "Nb6",
+      "Nd2",
+      "h6"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "qside-queens",
+    "game": 22,
+    "ply": 15,
+    "title": "Let Black make the queen exchange",
+    "caption": "After 8.axb3: the doubled b-pawns come with an open a-file. Compare activity with structure before condemning the recapture.",
+    "fen": "r3kb1r/pp2pppp/2n2n2/2Pp1b2/5B2/1PP1P3/1P1N1PPP/R3KBNR b KQkq - 0 8",
+    "arrows": [
+      "Ga1a7"
+    ],
+    "diagram": "diagram-08-qside-queens.svg",
+    "comments": {
+      "15": "After 8.axb3: the doubled b-pawns come with an open a-file. Compare activity with structure before condemning the recapture."
+    },
+    "continuation": [
+      "e5",
+      "Bg3",
+      "Bxc5",
+      "Ngf3",
+      "Bd6",
+      "b4",
+      "b5",
+      "Bxb5",
+      "Rc8",
+      "Bxe5"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "qside-break",
+    "game": 34,
+    "ply": 17,
+    "title": "Use b4 after the queen exchange",
+    "caption": "After 9.b4: the b-pawn supports the advanced c5-pawn and threatens to gain more queenside space. Black can still counter in the centre.",
+    "fen": "r3kb1r/pp3ppp/2n1pn2/2Pp1b2/1P3B2/2P1P3/1P1N1PPP/R3KBNR b KQkq - 0 9",
+    "arrows": [
+      "Gb4c5",
+      "Gb4b5"
+    ],
+    "diagram": "diagram-09-qside-break.svg",
+    "comments": {
+      "17": "After 9.b4: the b-pawn supports the advanced c5-pawn and threatens to gain more queenside space. Black can still counter in the centre."
+    },
+    "continuation": [
+      "e5",
+      "Bg3",
+      "b6",
+      "cxb6",
+      "a6",
+      "b5",
+      "Nb8",
+      "bxa6",
+      "Nbd7",
+      "b7"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "early-qb6",
+    "game": 19,
+    "ply": 6,
+    "title": "An early ...Qb6 changes the priorities",
+    "caption": "After 3...Qb6: b2 is attacked before White has played c3. Qc1 is the played defense, but ...Nh5 then forces a bishop decision.",
+    "fen": "rnb1kb1r/pp1ppppp/1qp2n2/8/3P1B2/4P3/PPP2PPP/RN1QKBNR w KQkq - 1 4",
+    "arrows": [
+      "Gb6b2"
+    ],
+    "diagram": "diagram-10-early-qb6.svg",
+    "comments": {
+      "6": "After 3...Qb6: b2 is attacked before White has played c3. Qc1 is the played defense, but ...Nh5 then forces a bishop decision."
+    },
+    "continuation": [
+      "Qc1",
+      "Nh5",
+      "Bxb8",
+      "Rxb8",
+      "Be2",
+      "Nf6",
+      "Nf3",
+      "g6",
+      "O-O",
+      "d6"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "q-b1",
+    "game": 109,
+    "ply": 19,
+    "title": "Qb1 keeps the queen off the c-file",
+    "caption": "After 10.Qb1: the queen backs the Bd3 diagonal and stays off the c-file. Bxe4 can be supported by the queen; direct queen pressure toward h7 requires the bishop to clear the line.",
+    "fen": "r2q1rk1/pb2bppp/1pn1pn2/2ppN3/3P1B2/2PBP3/PP1N1PPP/RQ3RK1 b - - 3 10",
+    "arrows": [
+      "Gb1d3",
+      "Gd3e4",
+      "Gd3h7"
+    ],
+    "diagram": "diagram-11-q-b1.svg",
+    "comments": {
+      "19": "After 10.Qb1: the queen backs the Bd3 diagonal and stays off the c-file. Bxe4 can be supported by the queen; direct queen pressure toward h7 requires the bishop to clear the line."
+    },
+    "continuation": [
+      "h6",
+      "h3",
+      "Nd7",
+      "Nxc6",
+      "Bxc6",
+      "b4",
+      "Bf6",
+      "Nf3",
+      "Re8",
+      "Ne5"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "central-break",
+    "game": 129,
+    "ply": 15,
+    "title": "Answer ...c4 by looking at e4",
+    "caption": "After 8.e4: Black pushed past d4 with ...c4; White uses the time and Nd2 support to challenge the centre.",
+    "fen": "r1b1kb1r/pp2pp1p/1qn2np1/3p4/2pPPB2/2P5/PPQN1PPP/R3KBNR b KQkq - 0 8",
+    "arrows": [
+      "Ge4d5"
+    ],
+    "diagram": "diagram-12-central-break.svg",
+    "comments": {
+      "15": "After 8.e4: Black pushed past d4 with ...c4; White uses the time and Nd2 support to challenge the centre."
+    },
+    "continuation": [
+      "e6",
+      "e5",
+      "Nd7",
+      "Ngf3",
+      "Bg7",
+      "h4",
+      "h5",
+      "g3",
+      "O-O",
+      "Bh3"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "greek-gift",
+    "game": 39,
+    "ply": 16,
+    "title": "Calculate before the Greek gift",
+    "caption": "After 8...O-O: Bxh7+ is a candidate because Ng5+ and Qh5 can follow. Calculate both acceptance and refusal, not just the game result.",
+    "fen": "r1bq1rk1/1pp1nppp/p1n1p3/3p4/3P1P2/2PB1N2/PP1N1PPP/R2QK2R w KQ - 1 9",
+    "arrows": [
+      "Gd3h7",
+      "Gf3g5"
+    ],
+    "diagram": "diagram-13-greek-gift.svg",
+    "comments": {
+      "16": "After 8...O-O: Bxh7+ is a candidate because Ng5+ and Qh5 can follow. Calculate both acceptance and refusal, not just the game result."
+    },
+    "continuation": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kh8"
+    ],
+    "analysis": [
+      {
+        "moves": [
+          "Qe2",
+          "Qd6",
+          "g3"
+        ],
+        "comment": "The deeper unrestricted search keeps an advantage by delaying the sacrifice."
+      },
+      {
+        "moves": [
+          "Bxh7+",
+          "Kxh7",
+          "Ng5+",
+          "Kg6",
+          "Qc2+",
+          "f5",
+          "Ndf3"
+        ],
+        "comment": "Kg6 is the missed defense. The tested position is approximately balanced, not a forced win for White."
+      }
+    ]
+  },
+  {
+    "id": "rook-sacrifice",
+    "game": 66,
+    "ply": 34,
+    "title": "An attractive attack can still fail",
+    "caption": "After 17...Nh5: the played Rxh5 is a serious commitment. The game ended in a loss on time; the engine comparison separates the sacrifice from later play.",
+    "fen": "r1bq1rk1/3n1p1p/1p2p1p1/3pN2n/p2P1P2/P1PB3R/1P1NQ1PP/1R4K1 w - - 2 18",
+    "arrows": [
+      "Gh3h5"
+    ],
+    "diagram": "diagram-14-rook-sacrifice.svg",
+    "comments": {
+      "34": "After 17...Nh5: the played Rxh5 is a serious commitment. The game ended in a loss on time; the engine comparison separates the sacrifice from later play."
+    },
+    "continuation": [
+      "Rxh5",
+      "gxh5",
+      "Bxh7+",
+      "Kg7",
+      "Bd3",
+      "Nxe5",
+      "fxe5",
+      "Qg5",
+      "Nf3",
+      "Qg4"
+    ],
+    "analysis": [
+      {
+        "moves": [
+          "Rxh5",
+          "gxh5",
+          "Bxh7+",
+          "Kg7",
+          "Qxh5",
+          "Nxe5",
+          "fxe5",
+          "Rh8",
+          "Rf1"
+        ],
+        "comment": "Engine-supported attack; this is an illustrative line, not forced mate. The game played Bd3 instead of Qxh5."
+      }
+    ]
+  },
+  {
+    "id": "grunfeld-setup",
+    "game": 59,
+    "ply": 9,
+    "title": "Against ...d5 and ...g6: Nc3 and h4",
+    "caption": "After 5.h4: White supports a kingside expansion. If Black stops h5 with ...h5, change plans rather than push automatically.",
+    "fen": "rnbqk2r/ppp1ppbp/5np1/3p4/3P1B1P/2N1P3/PPP2PP1/R2QKBNR b KQkq - 0 5",
+    "arrows": [
+      "Gh4h5"
+    ],
+    "diagram": "diagram-15-grunfeld-setup.svg",
+    "comments": {
+      "9": "After 5.h4: White supports a kingside expansion. If Black stops h5 with ...h5, change plans rather than push automatically."
+    },
+    "continuation": [
+      "h5",
+      "Nf3",
+      "Nc6",
+      "Nb5",
+      "e5",
+      "Nxe5",
+      "Nxe5",
+      "Bxe5",
+      "c6",
+      "Nc7+"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "pirc-setup",
+    "game": 63,
+    "ply": 9,
+    "title": "Against ...d6 and ...g6: build the e4 centre",
+    "caption": "After 5.Qd2: Nc3 supports e4. Queenside castling is available, but first check Black's central breaks and queenside counterplay.",
+    "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/3PPB2/2N5/PPPQ1PPP/R3KBNR b KQkq - 2 5",
+    "arrows": [
+      "Gd2h6",
+      "Ge1c1"
+    ],
+    "diagram": "diagram-16-pirc-setup.svg",
+    "comments": {
+      "9": "After 5.Qd2: Nc3 supports e4. Queenside castling is available, but first check Black's central breaks and queenside counterplay."
+    },
+    "continuation": [
+      "h6",
+      "O-O-O",
+      "g5",
+      "Bg3",
+      "Nh5",
+      "f4",
+      "Nxg3",
+      "hxg3",
+      "g4",
+      "Bc4"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "central-counterplay",
+    "game": 114,
+    "ply": 24,
+    "title": "Fianchetto warning: do not surrender the centre",
+    "caption": "After 12...Nd4: Black has active central pieces. The continuation Bxd4 exd4 gave Black a protected passer and dangerous attacking chances.",
+    "fen": "r1bq1rk1/pp3pbp/6p1/4p2n/2Bn4/2N1BN1P/PPP2PP1/R2Q1RK1 w - - 2 13",
+    "arrows": [
+      "Gd4f3",
+      "Ge5d4"
+    ],
+    "diagram": "diagram-17-central-counterplay.svg",
+    "comments": {
+      "24": "After 12...Nd4: Black has active central pieces. The continuation Bxd4 exd4 gave Black a protected passer and dangerous attacking chances."
+    },
+    "continuation": [
+      "Bxd4",
+      "exd4",
+      "Nb5",
+      "d3",
+      "c3",
+      "Nf4",
+      "Nbd4",
+      "Bxh3",
+      "gxh3",
+      "Qc8"
+    ],
+    "analysis": [
+      {
+        "moves": [
+          "Bd5",
+          "Qf6",
+          "Re1"
+        ],
+        "comment": "An engine-checked candidate that keeps central control. The game's Bxd4 is playable too; the later loss does not make it an immediate blunder."
+      }
+    ]
+  },
+  {
+    "id": "poisoned-pawn",
+    "game": 112,
+    "ply": 8,
+    "title": "The sharp ...Qxb2 line",
+    "caption": "After 4...Qxb2: White plays Nb5 and Rb1 to gain time against the queen. This is a concrete gambit, not a free attack.",
+    "fen": "rnb1kb1r/pp1ppppp/5n2/2p5/3P1B2/2N1P3/PqP2PPP/R2QKBNR w KQkq - 0 5",
+    "arrows": [
+      "Gc3b5",
+      "Ga1b1"
+    ],
+    "diagram": "diagram-18-poisoned-pawn.svg",
+    "comments": {
+      "8": "After 4...Qxb2: White plays Nb5 and Rb1 to gain time against the queen. This is a concrete gambit, not a free attack."
+    },
+    "continuation": [
+      "Nb5",
+      "Nd5",
+      "Rb1",
+      "Qxa2",
+      "Ra1",
+      "Qb2",
+      "Rb1",
+      "Qc3+",
+      "Nxc3",
+      "Nxc3"
+    ],
+    "analysis": [
+      {
+        "moves": [
+          "Nb5",
+          "Nd5",
+          "Rb1",
+          "Qxa2",
+          "Ra1",
+          "Qb2",
+          "Rb1",
+          "Qa2"
+        ],
+        "comment": "The sharp queen-chase branch. Qa2 is a more testing defense than the later Qc3+ blunder in the source game."
+      }
+    ]
+  },
+  {
+    "id": "gambit-warning",
+    "game": 123,
+    "ply": 16,
+    "title": "The same gambit against stronger defense",
+    "caption": "After 8...Qa2: White must decide whether to repeat with Ra1 or play on. The played c4 is checked separately; the earlier win does not settle this position.",
+    "fen": "rnb1kb1r/pp1ppppp/8/1Npn4/3P1B2/4P3/q1P2PPP/1R1QKBNR w Kkq - 4 9",
+    "arrows": [
+      "Gb1a1"
+    ],
+    "diagram": "diagram-19-gambit-warning.svg",
+    "comments": {
+      "16": "After 8...Qa2: White must decide whether to repeat with Ra1 or play on. The played c4 is checked separately; the earlier win does not settle this position."
+    },
+    "continuation": [
+      "c4",
+      "Nxf4",
+      "Nc7+",
+      "Kd8",
+      "Nxa8",
+      "Qa5+",
+      "Qd2",
+      "Qxd2+",
+      "Kxd2",
+      "Ne6"
+    ],
+    "analysis": [
+      {
+        "moves": [
+          "Ra1",
+          "Qb2",
+          "Nf3"
+        ],
+        "comment": "The tested stronger continuation preserves the queen-chase resource. The immediate c4 weakens White's prospects."
+      },
+      {
+        "moves": [
+          "c4",
+          "Qa5+",
+          "Qd2",
+          "Qxd2+",
+          "Kxd2",
+          "Nxf4"
+        ],
+        "comment": "An engine-checked reply to c4; Black has the better game at the stated search limit."
+      }
+    ]
+  },
+  {
+    "id": "englund-boundary",
+    "game": 24,
+    "ply": 7,
+    "title": "An Englund sideline is not a London",
+    "caption": "After 4.e4: White has returned the extra e5-pawn and developed with Nc3. Next f4 can gain time against Ne5.",
+    "fen": "r1bqkbnr/pppp1ppp/8/4n3/4P3/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+    "arrows": [
+      "Gf2f4"
+    ],
+    "diagram": "diagram-20-englund-boundary.svg",
+    "comments": {
+      "7": "After 4.e4: White has returned the extra e5-pawn and developed with Nc3. Next f4 can gain time against Ne5."
+    },
+    "continuation": [
+      "c6",
+      "f4",
+      "Ng6",
+      "Nf3",
+      "Bb4",
+      "Qd4",
+      "Ba5",
+      "Qxg7",
+      "Qf6",
+      "Qxf6"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "benoni-boundary",
+    "game": 17,
+    "ply": 3,
+    "title": "Against 1...c5: take the space",
+    "caption": "After 2.d5: the game has left the usual London. White can develop with e4, Nc3 and sometimes c4 rather than insist on Bf4.",
+    "fen": "rnbqkbnr/pp1ppppp/8/2pP4/8/8/PPP1PPPP/RNBQKBNR b KQkq - 0 2",
+    "arrows": [
+      "Gd5c6",
+      "Ge2e4"
+    ],
+    "diagram": "diagram-21-benoni-boundary.svg",
+    "comments": {
+      "3": "After 2.d5: the game has left the usual London. White can develop with e4, Nc3 and sometimes c4 rather than insist on Bf4."
+    },
+    "continuation": [
+      "c4",
+      "e4",
+      "Nf6",
+      "Nc3",
+      "e6",
+      "Bxc4",
+      "Bd6",
+      "Nf3",
+      "O-O",
+      "dxe6"
+    ],
+    "analysis": []
+  },
+  {
+    "id": "bishop-exchange",
+    "game": 130,
+    "ply": 18,
+    "title": "Let the bishop go when a piece improves",
+    "caption": "After 9...h6: the exchange on f4 has improved White's remaining knight. There is no duty to preserve the London bishop at any cost.",
+    "fen": "rn1qk2r/ppp2pp1/4p2p/5b2/1bBP1N2/2N1P3/PP3PPP/R2QK2R w KQkq - 0 10",
+    "arrows": [
+      "Gf4d5",
+      "Gf4e6"
+    ],
+    "diagram": "diagram-22-bishop-exchange.svg",
+    "comments": {
+      "18": "After 9...h6: the exchange on f4 has improved White's remaining knight. There is no duty to preserve the London bishop at any cost."
+    },
+    "continuation": [
+      "Qa4+",
+      "Nc6",
+      "Bb5",
+      "Qd6",
+      "Bxc6+",
+      "bxc6",
+      "Rc1",
+      "O-O",
+      "a3",
+      "Bxc3+"
+    ],
+    "analysis": []
+  }
+]
