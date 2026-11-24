@@ -1,0 +1,254 @@
+[
+  {
+    "id": "recapture-d4",
+    "game": 11,
+    "source_ply": 17,
+    "moves": [
+      "cxd4",
+      "exd4"
+    ],
+    "description": "Recorded recapture; White has a half-open e-file."
+  },
+  {
+    "id": "queens-exchanged",
+    "game": 22,
+    "source_ply": 9,
+    "moves": [
+      "Nf6",
+      "Nd2",
+      "Bf5",
+      "dxc5",
+      "Qxb3",
+      "axb3"
+    ],
+    "description": "Recorded queen exchange; White has a half-open a-file."
+  },
+  {
+    "id": "nb5-c4",
+    "game": 31,
+    "source_ply": 15,
+    "moves": [
+      "c4",
+      "Nd6+",
+      "Qxd6",
+      "Bxd6",
+      "cxb3",
+      "Bxf8",
+      "Rxf8",
+      "axb3"
+    ],
+    "description": "Editorial tactical illustration: Black has an extra knight for one pawn."
+  },
+  {
+    "id": "qxb6-alternative",
+    "game": 31,
+    "source_ply": 14,
+    "moves": [
+      "Qxb6"
+    ],
+    "description": "Editorial alternative before Nb5."
+  },
+  {
+    "id": "early-qb6-bishop",
+    "game": 19,
+    "source_ply": 6,
+    "moves": [
+      "Qc1",
+      "Nh5",
+      "Bxb8",
+      "Rxb8"
+    ],
+    "description": "Recorded early queen-pressure response."
+  },
+  {
+    "id": "qc3-punishment",
+    "game": 112,
+    "source_ply": 15,
+    "moves": [
+      "Qc3+",
+      "Nxc3",
+      "Nxc3",
+      "Qc1",
+      "Nxb1",
+      "Qxb1"
+    ],
+    "description": "Recorded punishment of the queen blunder."
+  },
+  {
+    "id": "queen-chase-repetition",
+    "game": 123,
+    "source_ply": 16,
+    "moves": [
+      "Ra1",
+      "Qb2",
+      "Rb1",
+      "Qa2"
+    ],
+    "description": "Editorial illustrative repetition; Black can choose other moves."
+  },
+  {
+    "id": "c4-qa5",
+    "game": 123,
+    "source_ply": 16,
+    "moves": [
+      "c4",
+      "Qa5+",
+      "Qd2",
+      "Qxd2+",
+      "Kxd2",
+      "Nxf4"
+    ],
+    "description": "Editorial reply to c4."
+  },
+  {
+    "id": "c4-nxf4-chase",
+    "game": 123,
+    "source_ply": 16,
+    "moves": [
+      "c4",
+      "Nxf4",
+      "Ra1",
+      "Qb2",
+      "Rb1",
+      "Qa2"
+    ],
+    "description": "Editorial queen-chase resource; not a forced repetition."
+  },
+  {
+    "id": "fianchetto-centre",
+    "game": 114,
+    "source_ply": 18,
+    "moves": [
+      "Be3",
+      "e5",
+      "dxe5",
+      "dxe5",
+      "Bc4",
+      "Nd4"
+    ],
+    "description": "Recorded lead-in to the central-counterplay diagram."
+  },
+  {
+    "id": "protected-not-passed",
+    "game": 114,
+    "source_ply": 24,
+    "moves": [
+      "Bxd4",
+      "exd4"
+    ],
+    "description": "Recorded exchange; White still has c2 and Nc3."
+  },
+  {
+    "id": "central-bd5",
+    "game": 114,
+    "source_ply": 24,
+    "moves": [
+      "Bd5"
+    ],
+    "description": "Editorial candidate; not a claim of uniqueness."
+  },
+  {
+    "id": "greek-gift-recorded",
+    "game": 39,
+    "source_ply": 16,
+    "moves": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kh8"
+    ],
+    "description": "Recorded game continuation."
+  },
+  {
+    "id": "greek-gift-escape",
+    "game": 39,
+    "source_ply": 16,
+    "moves": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg6",
+      "Qc2+",
+      "f5",
+      "O-O-O",
+      "Qd6",
+      "Ndf3"
+    ],
+    "description": "Editorial defensive illustration."
+  },
+  {
+    "id": "rook-sacrifice",
+    "game": 66,
+    "source_ply": 34,
+    "moves": [
+      "Rxh5",
+      "gxh5",
+      "Bxh7+",
+      "Kg7",
+      "Qxh5",
+      "Nxe5",
+      "fxe5",
+      "Rh8",
+      "Rf1"
+    ],
+    "description": "Editorial attacking illustration."
+  },
+  {
+    "id": "bishop-for-knight",
+    "game": 130,
+    "source_ply": 13,
+    "moves": [
+      "Nd5",
+      "Ne2",
+      "Nxf4",
+      "Nxf4"
+    ],
+    "description": "Recorded bishop exchange."
+  },
+  {
+    "id": "e4-counterattack",
+    "game": 2,
+    "source_ply": 9,
+    "moves": [
+      "Qxd4",
+      "Qc2",
+      "Bd7",
+      "Nb5"
+    ],
+    "description": "Editorial counterattack to the pawn investment."
+  },
+  {
+    "id": "greek-gift-mate",
+    "game": 39,
+    "source_ply": 20,
+    "moves": [
+      "Qh5+",
+      "Kg8",
+      "Qh7#"
+    ],
+    "description": "Editorial completion after Black\u2019s game move Kh8: the reply to Qh5+ is forced, then Qh7 is mate."
+  },
+  {
+    "id": "isolated-d4",
+    "game": 14,
+    "source_ply": 12,
+    "moves": [
+      "Nf3",
+      "Bxf4",
+      "exf4"
+    ],
+    "description": "Editorial structural comparison: with the c-pawn gone, exf4 leaves d4 isolated. The source game instead preserves e3 through Bg3 and hxg3."
+  },
+  {
+    "id": "greek-gift-kh6",
+    "game": 39,
+    "source_ply": 19,
+    "moves": [
+      "Kh6",
+      "Qg4",
+      "Nf5",
+      "O-O-O"
+    ],
+    "description": "Editorial second forward king escape, supported by the 100-million-node full-history search."
+  }
+]

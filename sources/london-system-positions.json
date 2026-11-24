@@ -4,7 +4,7 @@
     "game": 25,
     "ply": 13,
     "title": "The c3 and Nd2 setup",
-    "caption": "After 7.Bd3: c3 holds d4, both knights are developed, and White can prepare a central break. Black can still gain queenside space.",
+    "caption": "After 7.Bd3: c3 holds d4 and both knights are developed. The arrows show support for d4 and e4, not a recommendation to play Ne4 into the d5-pawn.",
     "fen": "rnbqk2r/1p3ppp/p2bpn2/2pp4/3P1B2/2PBPN2/PP1N1PPP/R2QK2R b KQkq - 5 7",
     "arrows": [
       "Gc3d4",
@@ -12,7 +12,7 @@
     ],
     "diagram": "diagram-01-core-setup.svg",
     "comments": {
-      "13": "After 7.Bd3: c3 holds d4, both knights are developed, and White can prepare a central break. Black can still gain queenside space."
+      "13": "After 7.Bd3: c3 holds d4 and both knights are developed. The arrows show support for d4 and e4, not a recommendation to play Ne4 into the d5-pawn."
     },
     "continuation": [
       "c4",
@@ -140,21 +140,31 @@
       "Qd7",
       "Qxa8+"
     ],
-    "analysis": []
+    "analysis": [
+      {
+        "moves": [
+          "Qxd4",
+          "Qc2",
+          "Bd7",
+          "Nb5"
+        ],
+        "comment": "Black can counterattack on d4 instead of immediately saving Bf5. Qc2 keeps play active; e4 does not win material by force."
+      }
+    ]
   },
   {
     "id": "nc6-hfile",
     "game": 14,
     "ply": 15,
-    "title": "An early ...Nc6 and an open h-file",
-    "caption": "After 8.hxg3: Black spent time exchanging the active bishop. The recapture opens the h-file and keeps f2 intact.",
+    "title": "An early ...Nc6 and a half-open h-file",
+    "caption": "After 8.hxg3: White has a half-open h-file, with Black\u2019s h7-pawn still on it. The doubled g-pawns are a cost; keeping e3 preserves support for d4.",
     "fen": "r1bqk2r/ppp2ppp/2n1pn2/8/2BP4/2N1P1P1/PP3PP1/R2QK1NR b KQkq - 0 8",
     "arrows": [
       "Gh1h7"
     ],
     "diagram": "diagram-06-nc6-hfile.svg",
     "comments": {
-      "15": "After 8.hxg3: Black spent time exchanging the active bishop. The recapture opens the h-file and keeps f2 intact."
+      "15": "After 8.hxg3: White has a half-open h-file, with Black\u2019s h7-pawn still on it. The doubled g-pawns are a cost; keeping e3 preserves support for d4."
     },
     "continuation": [
       "Qe7",
@@ -203,14 +213,14 @@
     "game": 22,
     "ply": 15,
     "title": "Let Black make the queen exchange",
-    "caption": "After 8.axb3: the doubled b-pawns come with an open a-file. Compare activity with structure before condemning the recapture.",
+    "caption": "After 8.axb3: doubled b-pawns come with a half-open a-file; Black\u2019s a7-pawn remains. Compare activity with structure before condemning the recapture.",
     "fen": "r3kb1r/pp2pppp/2n2n2/2Pp1b2/5B2/1PP1P3/1P1N1PPP/R3KBNR b KQkq - 0 8",
     "arrows": [
       "Ga1a7"
     ],
     "diagram": "diagram-08-qside-queens.svg",
     "comments": {
-      "15": "After 8.axb3: the doubled b-pawns come with an open a-file. Compare activity with structure before condemning the recapture."
+      "15": "After 8.axb3: doubled b-pawns come with a half-open a-file; Black\u2019s a7-pawn remains. Compare activity with structure before condemning the recapture."
     },
     "continuation": [
       "e5",
@@ -379,9 +389,11 @@
           "Kg6",
           "Qc2+",
           "f5",
+          "O-O-O",
+          "Qd6",
           "Ndf3"
         ],
-        "comment": "Kg6 is the missed defense. The tested position is approximately balanced, not a forced win for White."
+        "comment": "The 100-million-node recheck supports the forward king escape and approximately equal play. This is an illustrative line, not a forced sequence."
       }
     ]
   },
@@ -461,15 +473,16 @@
     "game": 63,
     "ply": 9,
     "title": "Against ...d6 and ...g6: build the e4 centre",
-    "caption": "After 5.Qd2: Nc3 supports e4. Queenside castling is available, but first check Black's central breaks and queenside counterplay.",
+    "caption": "After 5.Qd2: Nc3 supports e4, while Qd2 prepares queenside castling and can back a later Bh6. Check Black\u2019s central breaks and queenside counterplay first.",
     "fen": "rnbqk2r/ppp1ppbp/3p1np1/8/3PPB2/2N5/PPPQ1PPP/R3KBNR b KQkq - 2 5",
     "arrows": [
-      "Gd2h6",
+      "Gf4h6",
+      "Gd2f4",
       "Ge1c1"
     ],
     "diagram": "diagram-16-pirc-setup.svg",
     "comments": {
-      "9": "After 5.Qd2: Nc3 supports e4. Queenside castling is available, but first check Black's central breaks and queenside counterplay."
+      "9": "After 5.Qd2: Nc3 supports e4, while Qd2 prepares queenside castling and can back a later Bh6. Check Black\u2019s central breaks and queenside counterplay first."
     },
     "continuation": [
       "h6",
@@ -490,7 +503,7 @@
     "game": 114,
     "ply": 24,
     "title": "Fianchetto warning: do not surrender the centre",
-    "caption": "After 12...Nd4: Black has active central pieces. The continuation Bxd4 exd4 gave Black a protected passer and dangerous attacking chances.",
+    "caption": "After 12...Nd4: Bxd4 exd4 creates a protected d4-pawn, not a passed pawn: White\u2019s c2-pawn remains on an adjacent file. A c3 challenge requires moving the c3-knight first.",
     "fen": "r1bq1rk1/pp3pbp/6p1/4p2n/2Bn4/2N1BN1P/PPP2PP1/R2Q1RK1 w - - 2 13",
     "arrows": [
       "Gd4f3",
@@ -498,7 +511,7 @@
     ],
     "diagram": "diagram-17-central-counterplay.svg",
     "comments": {
-      "24": "After 12...Nd4: Black has active central pieces. The continuation Bxd4 exd4 gave Black a protected passer and dangerous attacking chances."
+      "24": "After 12...Nd4: Bxd4 exd4 creates a protected d4-pawn, not a passed pawn: White\u2019s c2-pawn remains on an adjacent file. A c3 challenge requires moving the c3-knight first."
     },
     "continuation": [
       "Bxd4",
@@ -571,14 +584,14 @@
     "game": 123,
     "ply": 16,
     "title": "The same gambit against stronger defense",
-    "caption": "After 8...Qa2: White must decide whether to repeat with Ra1 or play on. The played c4 is checked separately; the earlier win does not settle this position.",
+    "caption": "After 8...Qa2: Ra1 keeps the queen-chase resource, while the played c4 gives Black a stronger reply. Ra1 does not force Black to repeat.",
     "fen": "rnb1kb1r/pp1ppppp/8/1Npn4/3P1B2/4P3/q1P2PPP/1R1QKBNR w Kkq - 4 9",
     "arrows": [
       "Gb1a1"
     ],
     "diagram": "diagram-19-gambit-warning.svg",
     "comments": {
-      "16": "After 8...Qa2: White must decide whether to repeat with Ra1 or play on. The played c4 is checked separately; the earlier win does not settle this position."
+      "16": "After 8...Qa2: Ra1 keeps the queen-chase resource, while the played c4 gives Black a stronger reply. Ra1 does not force Black to repeat."
     },
     "continuation": [
       "c4",

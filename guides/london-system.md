@@ -66,7 +66,7 @@ When Black plays …c5 against d4, Aman usually reinforces with c3 and brings th
 
 <div>
   <img src="assets/london-system/diagram-01-core-setup.svg" alt="The c3 and Nd2 setup — source game 25, ply 13, White-oriented board" width="480"/>
-  <p><strong>The c3 and Nd2 setup.</strong> After 7.Bd3: c3 holds d4, both knights are developed, and White can prepare a central break. Black can still gain queenside space.</p>
+  <p><strong>The c3 and Nd2 setup.</strong> After 7.Bd3: c3 holds d4 and both knights are developed. The arrows show support for d4 and e4, not a recommendation to play Ne4 into the d5-pawn.</p>
 </div>
 
 Game 25 begins:
@@ -77,9 +77,9 @@ White has a coherent position, but Black has options. An exchange on d6, Ne5, e4
 
 The c3-pawn is not the purpose of the opening. Its purpose is to make development and central play easier. Once the centre changes, the knight may reroute and the c-pawn may advance again.
 
-After `…cxd4`, **exd4 is often the natural recapture**: the c3-pawn keeps supporting d4 and the e-file becomes available. This is one of Aman's recurring preferences in the [Part 16 discussion](https://www.youtube.com/watch?v=klPQ8hPGCnU&t=1406s). Verify the actual threats before treating a preference as a rule.
+After `…cxd4`, **exd4 is often the natural recapture**: the c3-pawn keeps supporting d4 and the e-file becomes half-open for White while Black retains an e-pawn. This is one of Aman's recurring preferences in the [Part 16 discussion](https://www.youtube.com/watch?v=klPQ8hPGCnU&t=1406s). Verify the actual threats before treating a preference as a rule.
 
-Game 11 reaches that structure from a fianchetto setup: `9…cxd4 10.exd4`, followed by Re1. The open e-file matters because Black is preparing …e5. A rook belongs on a file for a reason, not merely because the square looks standard.
+Game 11 reaches that structure from a fianchetto setup: `9…cxd4 10.exd4`, followed by Re1. The half-open e-file matters because Black is preparing …e5; Black still has a pawn on that file. A rook belongs on a file for a reason, not merely because the square looks standard.
 
 ## 4. c4: challenge Black instead of building a smaller centre
 
@@ -98,7 +98,7 @@ Game 2 shows what can happen when Black takes on c4 without enough development:
 
 `1.d4 d5 2.Bf4 Bf5 3.c4 dxc4 4.Nc3 Nc6 5.e4`
 
-White gains a central tempo against the bishop. The next tasks are to recover c4, finish development and keep the king safe. This is a concrete opportunity created by Black's move order, not permission to play e4 whenever you like.
+White attacks the bishop and gains central space, but Black can counter with **5…Qxd4** rather than retreat immediately. The checked response is **6.Qc2**, keeping active play before recovering material. The next tasks are development and king safety; e4 does not force a material gain. This is a concrete pawn investment, not permission to play e4 whenever you like.
 
 The opponent can defend more carefully. In game 58, after `1.d4 Nf6 2.Bf4 d5 3.e3 Bf5 4.c4 c6 5.Nc3 e6 6.Qb3`, Black plays `6…Qc8`. Aman develops with Rc1 and Nf3 rather than inventing a forced attack. [He discusses this defense in Part 6.](https://www.youtube.com/watch?v=PqFwbmSvm38&t=385s)
 
@@ -114,11 +114,11 @@ A knight on c6 blocks the c-pawn. White often has time to play c4 and develop th
 Game 14 follows `1.d4 d5 2.Bf4 Nc6 3.e3 Nf6 4.c4 dxc4 5.Bxc4 e6 6.Nc3 Bd6 7.Bg3 Bxg3 8.hxg3`.
 
 <div>
-  <img src="assets/london-system/diagram-06-nc6-hfile.svg" alt="An early ...Nc6 and an open h-file — source game 14, ply 15, White-oriented board" width="480"/>
-  <p><strong>An early ...Nc6 and an open h-file.</strong> After 8.hxg3: Black spent time exchanging the active bishop. The recapture opens the h-file and keeps f2 intact.</p>
+  <img src="assets/london-system/diagram-06-nc6-hfile.svg" alt="An early ...Nc6 and a half-open h-file — source game 14, ply 15, White-oriented board" width="480"/>
+  <p><strong>An early ...Nc6 and a half-open h-file.</strong> After 8.hxg3: White has a half-open h-file, with Black’s h7-pawn still on it. The doubled g-pawns are a cost; keeping e3 preserves support for d4.</p>
 </div>
 
-White has an open h-file and sensible development. That is compensation for exchanging the bishop, not a guaranteed attack. Black can castle, pressure the centre and contest files. The follow-up must involve the rest of White's army.
+White has a half-open h-file and sensible development; Black’s h7-pawn remains a potential target. That is compensation for exchanging the bishop, not a guaranteed attack. Black can castle, pressure the centre and contest files. The follow-up must involve the rest of White's army.
 
 ### C. Against a quiet …d6 setup
 
@@ -135,16 +135,16 @@ A useful question is: **what would c3 be protecting right now, and what would c4
 
 There are several different queen-pressure problems in this series. Do not combine them into one memorized trick.
 
-### A. c3 has already been played: Qb3 and the open a-file
+### A. c3 has already been played: Qb3 and the half-open a-file
 
 In game 22, `1.d4 d5 2.Bf4 c5 3.e3 Nc6 4.c3 Qb6 5.Qb3` answers pressure with pressure. The game continues `5…Nf6 6.Nd2 Bf5 7.dxc5 Qxb3 8.axb3`.
 
 <div>
   <img src="assets/london-system/diagram-08-qside-queens.svg" alt="Let Black make the queen exchange — source game 22, ply 15, White-oriented board" width="480"/>
-  <p><strong>Let Black make the queen exchange.</strong> After 8.axb3: the doubled b-pawns come with an open a-file. Compare activity with structure before condemning the recapture.</p>
+  <p><strong>Let Black make the queen exchange.</strong> After 8.axb3: doubled b-pawns come with a half-open a-file; Black’s a7-pawn remains. Compare activity with structure before condemning the recapture.</p>
 </div>
 
-White accepts doubled b-pawns because the a-file opens and the queens are gone. In this exact position, capturing on c5 first also changes the material and central tension. White still needs development; the structural imbalance does not win by itself.
+White accepts doubled b-pawns because the a-file becomes half-open for White and the queens are gone; Black’s a7-pawn remains on the file. In this exact position, capturing on c5 first also changes the material and central tension. White still needs development; the structural imbalance does not win by itself.
 
 Game 34 gives a more ambitious follow-up after a similar queen exchange: b4 supports the advanced c5-pawn and prepares more queenside space.
 
@@ -193,10 +193,10 @@ In game 123 Black instead plays `8…Qa2`. Aman chooses c4 and eventually loses.
 
 <div>
   <img src="assets/london-system/diagram-19-gambit-warning.svg" alt="The same gambit against stronger defense — source game 123, ply 16, White-oriented board" width="480"/>
-  <p><strong>The same gambit against stronger defense.</strong> After 8...Qa2: White must decide whether to repeat with Ra1 or play on. The played c4 is checked separately; the earlier win does not settle this position.</p>
+  <p><strong>The same gambit against stronger defense.</strong> After 8...Qa2: Ra1 keeps the queen-chase resource, while the played c4 gives Black a stronger reply. Ra1 does not force Black to repeat.</p>
 </div>
 
-The [finale discussion](https://www.youtube.com/watch?v=Zkcyyj9xTT8&t=670s) acknowledges the repetition motif. Repeating a position is a legitimate outcome. If you want a lower-maintenance repertoire, study the concrete defense of b2 rather than adopting a pawn gambit from its most spectacular win.
+The [finale discussion](https://www.youtube.com/watch?v=Zkcyyj9xTT8&t=670s) acknowledges the repetition motif. For example, `9.Ra1 Qb2 10.Rb1 Qa2` reaches a third occurrence of the position after 6…Qxa2 when the complete game history is counted. Black can deviate, so this resource is **not a forced draw**. Repeating a position is a legitimate outcome. If you want a lower-maintenance repertoire, study the concrete defense of b2 rather than adopting a pawn gambit from its most spectacular win.
 
 ## 6. A recapture is a structural decision
 
@@ -204,11 +204,13 @@ Aman changes his advice when the c-pawn changes square. This is one of the most 
 
 | Exchange | What the recapture can give White | What to check |
 | --- | --- | --- |
-| `…Bxf4 exf4` with c3 and d4 intact | The c3/d4/f4 pawns control important central squares; e5 becomes a useful outpost. | The e-file opens, e3 is vacated, and f4 may become a target. |
-| `…Bxf4 exf4` after c4 | Central activity and an open e-file may still matter. | Exchanges of the c- and d-pawns can leave weak or isolated doubled f-pawns. The c3 reinforcement is absent. |
-| `…Bxg3 hxg3` | An open h-file and a pawn on g3 that controls f4/h4. | King placement, the remaining centre and whether the rook can actually use the file. |
-| `…cxd4 exd4` | c3 continues to support d4; the e-file opens. | Tactics on e3/e4, a backward pawn, or a piece on the file can change the choice. |
-| `…cxd4 cxd4` | A c-file opens and a different central structure appears. | You have removed c3's support and altered the knight's routes; compare the resulting position. |
+| `…Bxf4 exf4` with c3 and d4 intact | The c3/d4/f4 pawns control important central squares; e5 becomes a useful outpost. | The e-file becomes half-open for White if Black retains an e-pawn; e3 is vacated, and f4 may become a target. |
+| `…Bxf4 exf4` after c4 | Central activity and a half-open e-file may still matter. | If the c-pawn has been exchanged, moving e3 to f4 can leave the d4-pawn isolated. The doubled f-pawns may also become targets. |
+| `…Bxg3 hxg3` | A half-open h-file while Black retains an h-pawn, plus a pawn on g3 that controls f4/h4. | The often-doubled g-pawns, king placement and whether the rook can use the file; retaining e3 can help support d4. |
+| `…cxd4 exd4` | c3 continues to support d4; the e-file becomes half-open for White if Black retains an e-pawn. | Tactics on e3/e4, a backward pawn, or a piece on the file can change the choice. |
+| `…cxd4 cxd4` | Both c-pawns have left their file, opening the c-file and changing the centre. | You have removed c3's support and altered the knight's routes; compare the resulting position. |
+
+For a concrete comparison, in game 14’s position after 6…Bd6, the illustrative line `7.Nf3 Bxf4 8.exf4` leaves d4 isolated: White’s c-pawn has gone and the e-pawn has moved to f4. The game’s Bg3 and hxg3 keep the e3-pawn supporting d4, at the cost of doubled g-pawns.
 
 A rule such as “double the f-pawns” has no value without its condition. Count the central pawns that will remain after the next exchanges. Then decide which piece or file improves.
 
@@ -280,12 +282,12 @@ Without a black pawn on d5, Nc3 can support e4 directly. Aman develops this more
 
 <div>
   <img src="assets/london-system/diagram-16-pirc-setup.svg" alt="Against ...d6 and ...g6: build the e4 centre — source game 63, ply 9, White-oriented board" width="480"/>
-  <p><strong>Against ...d6 and ...g6: build the e4 centre.</strong> After 5.Qd2: Nc3 supports e4. Queenside castling is available, but first check Black's central breaks and queenside counterplay.</p>
+  <p><strong>Against ...d6 and ...g6: build the e4 centre.</strong> After 5.Qd2: Nc3 supports e4, while Qd2 prepares queenside castling and can back a later Bh6. Check Black’s central breaks and queenside counterplay first.</p>
 </div>
 
-Qd2 connects the bishops and permits queenside castling. Bh6 may exchange the fianchettoed bishop; f3 may reinforce e4; h4 can start an attack. The choices depend on Black's centre and development. If Black plays …c5 or …e5, answer that problem before moving every pawn toward the king.
+Qd2 clears d1 for queenside castling and can support a later Bh6. Bh6 may exchange the fianchettoed bishop; f3 may reinforce e4; h4 can start an attack. The choices depend on Black's centre and development. If Black plays …c5 or …e5, answer that problem before moving every pawn toward the king.
 
-This is a different structure from the quiet e3/c3 London. It can transpose toward Pirc or King's Indian territory, and the Nc3/Bf4 arrangement is sometimes described as Jobava-style. Keep the actual pawn structure in view rather than forcing every game into one label.
+This is a different structure from the quiet e3/c3 London: White has pawns on e4 and d4 with the dark-squared bishop already on f4. Answer Black’s central breaks and develop around that centre; do not return automatically to the c3/Nd2 setup.
 
 ### A loss worth studying
 
@@ -293,10 +295,10 @@ Game 114 against Victzzz begins with the same active knight development, but Bla
 
 <div>
   <img src="assets/london-system/diagram-17-central-counterplay.svg" alt="Fianchetto warning: do not surrender the centre — source game 114, ply 24, White-oriented board" width="480"/>
-  <p><strong>Fianchetto warning: do not surrender the centre.</strong> After 12...Nd4: Black has active central pieces. The continuation Bxd4 exd4 gave Black a protected passer and dangerous attacking chances.</p>
+  <p><strong>Fianchetto warning: do not surrender the centre.</strong> After 12...Nd4: Bxd4 exd4 creates a protected d4-pawn, not a passed pawn: White’s c2-pawn remains on an adjacent file. A c3 challenge requires moving the c3-knight first.</p>
 </div>
 
-The game's `13.Bxd4 exd4` changes the structure and gives Black a passed d-pawn. It is **not** an immediate losing blunder in the deeper engine comparison; White can defend. The eventual checkmate comes after further mistakes. Study how Black uses the centre and the dark squares, rather than attributing the loss to one bishop exchange or to Nc3 itself.
+The game's `13.Bxd4 exd4` gives Black an advanced, protected d4-pawn. It is **not a passed pawn**: White’s c2-pawn remains ahead of it on an adjacent file. A c3 challenge requires moving the c3-knight first; the timing matters because Black can advance to d3. It is **not** an immediate losing blunder in the deeper engine comparison; White can defend. The eventual checkmate comes after further mistakes. Study how Black uses the centre and the dark squares, rather than attributing the loss to one bishop exchange or to Nc3 itself.
 
 A useful alternative at the displayed position is Bd5, keeping central control. That is an engine-checked editorial candidate, not an assertion that Aman recommended it in the video.
 
@@ -326,7 +328,7 @@ Game 39 reaches the familiar-looking Bxh7+ idea after Black castles. White has B
   <p><strong>Calculate before the Greek gift.</strong> After 8...O-O: Bxh7+ is a candidate because Ng5+ and Qh5 can follow. Calculate both acceptance and refusal, not just the game result.</p>
 </div>
 
-Aman plays `9.Bxh7+ Kxh7 10.Ng5+ Kh8`, and Black resigns. The checked defense is **10…Kg6!**, after which the engine finds a roughly balanced position rather than a forced win for White. One illustrative continuation is `11.Qc2+ f5 12.Ndf3`; this requires further play and is not a forced mating sequence.
+Aman plays `9.Bxh7+ Kxh7 10.Ng5+ Kh8`, and Black resigns. White then has the forced mate `11.Qh5+ Kg8 12.Qh7#`. **10…Kg6!** is a checked defense, and the stronger search also finds **10…Kh6**. These forward king moves lead to roughly balanced play rather than a forced win for White. One illustrative continuation is `11.Qc2+ f5 12.O-O-O Qd6 13.Ndf3`; this requires further play and is not a forced mating sequence.
 
 The deeper unrestricted search before the sacrifice prefers Qe2, keeping a useful advantage. The sacrifice gives up much of that advantage against accurate defense. The lesson is to calculate the king's **forward** escape as carefully as its retreat. Do not assume the usual picture proves the combination.
 
@@ -339,7 +341,7 @@ Game 66 builds an attack with Ne5, f4 and Rf3-h3. After `17…Nh5`, Aman plays `
   <p><strong>An attractive attack can still fail.</strong> After 17...Nh5: the played Rxh5 is a serious commitment. The game ended in a loss on time; the engine comparison separates the sacrifice from later play.</p>
 </div>
 
-Stockfish supports Rxh5 in this exact position. A deeper illustrative line continues **20.Qxh5**, while the actual game uses **20.Bd3** and later ends in a loss on time. The engine's evaluation favors White after the rook sacrifice; it does not claim a forced mate. The lost game does not refute the combination.
+Stockfish supports Rxh5 in this exact position. A deeper illustrative line continues **20.Qxh5**, while the actual game uses **20.Bd3** and later ends in a loss on time. The stronger review still favors White after Bd3; that move is not an immediate losing error. The engine's evaluation favors White after the rook sacrifice; it does not claim a forced mate. The lost game does not refute the combination.
 
 Compare these examples together. A winning result can conceal a defensive resource; a losing result can contain a sound attack. The repertoire should preserve the teaching idea while recording the tactical qualification. Exact searches and legal analysis branches are in the [Stockfish report](../sources/london-system-validation.md) and companion study.
 
@@ -354,7 +356,7 @@ Aman usually takes the Englund pawn, develops Nc3, then looks for e4, f4 and Nf3
   <p><strong>An Englund sideline is not a London.</strong> After 4.e4: White has returned the extra e5-pawn and developed with Nc3. Next f4 can gain time against Ne5.</p>
 </div>
 
-Game 24 starts `1.d4 e5 2.dxe5 Nc6 3.Nc3 Nxe5 4.e4`. White develops with tempo instead of turning the extra pawn into a problem to defend. The position remains tactical: ...Qh4, checks on b4 and pressure on f2 still need attention.
+Game 24 starts `1.d4 e5 2.dxe5 Nc6 3.Nc3 Nxe5 4.e4`. White returns the extra pawn and builds the centre; a later f4 can gain a tempo against the e5-knight. The position remains tactical: ...Qh4, checks on b4 and pressure on f2 still need attention.
 
 This is one response to the Englund, not a complete analysis of all Black's alternatives. If Black does not recover the pawn immediately, use the board in front of you. Do not apply the next moves mechanically.
 

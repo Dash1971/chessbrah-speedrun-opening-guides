@@ -1,90 +1,129 @@
 # London System guide — validation and engine findings
 
-Review date: **2026-11-24**.
+Second review completed: **2026-11-24**, against publication commit **76c5f11**.
 
-[Guide](../guides/london-system.md) · [Source index](london-system.md) · [Provenance and game identifiers](london-system-games.json) · [Position manifest](london-system-positions.json) · [Machine-readable engine record](london-system-engine.json)
+[Guide](../guides/london-system.md) · [Source index](london-system.md) · [Game provenance](london-system-games.json) · [Position manifest](london-system-positions.json) · [Latest engine searches](london-system-second-review.json) · [Contextual tactical lines](london-system-tactical-lines.json)
 
-## Corpus integrity and scope
+## Outcome and corrections
 
-The 130 published games are the historical account's standard-chess, 300-second blitz games with White, beginning with the matched post-reset aziz4ab game and ending with the finale's fidemax game. The archive window is inclusive. Twenty-three earlier White games, 47 intervening 60-second bullet games, all Black games and all 2024 activity are excluded. The selection is based on account identity, exact game endpoints and time control, not merely a London ECO code or a search for Bf4.
+All **22 diagram positions were correct**. The second review checked the actual SVG piece placements rather than relying only on the embedded FEN: **674 pieces**, White orientation, and all **22 exact move labels** agree with replayed source games. The rendered boards were visually inspected again.
 
-The historical video name **systemplayer** now belongs to another account. The run's original account has player ID **188452309** and currently uses **systematic**. Recovery through the first opponent's archive was necessary to find it. The complete PGN preserves the API's original text, moves, clock comments, results and renamed player headers; individual game blocks were joined with a consistent blank-line separator. Per-game hashes and the full corpus hash are recorded in the provenance file. The retrieval script checks account identity and expected game count before writing.
+The review found and corrected several explanations:
 
-The collection contains **120 wins, 8 losses and 2 draws**. These describe the selected archive, not opening performance against equal opposition. The last game's archived White rating is **2498**. Pre-game ratings shown in the videos can differ from the archive's postgame ratings.
+- The a-, e- and h-files in the cited examples are **half-open for White**, with a Black pawn still on the file. They are not fully open files.
+- After game 114's **13.Bxd4 exd4**, Black has a protected d4-pawn, **not a passed pawn**: White's c2-pawn remains ahead on an adjacent file. A c3 challenge requires moving Nc3 first; Black's ...d3 makes the timing important.
+- After the c-pawn has been exchanged, **...Bxf4 exf4 can isolate White's d4-pawn** by removing the e3-pawn's support. It does not automatically isolate the doubled f-pawns. The guide now includes a legal comparison from game 14 and acknowledges the doubled g-pawns after hxg3.
+- Qd2 prepares queenside castling and can back Bh6; the former phrase about “connecting the bishops” was removed. Its diagram now shows the bishop route and queen support separately. The c3/Nd2 diagram explicitly identifies its arrows as support, rather than an instruction to move Ne4 into the d5-pawn.
+- The early e4 example now includes Black's **...Qxd4** counterattack and the checked **Qc2** response. An attack on Bf5 does not force an immediate bishop retreat.
+- The queen-chase line is presented as a **repetition resource, not a forced draw**. Black can deviate.
+- The Greek-gift discussion includes both forward king escapes and the actual mating finish after ...Kh8. The rook-sacrifice discussion makes clear that the game's Bd3 still leaves White better at the tested limit.
 
-Episode windows follow sampled boundary opponents and the ordered archive. Parts 5 and 14 use adjacent verified boundaries plus caption evidence because frame extraction was unavailable. The source index distinguishes those inferences. Interior games are not all individually frame-matched, and no exact game-start timestamps are invented.
+The complete 130-game corpus is unchanged. Its SHA-256 remains `ca61dda5bf1d4059439db5eb93423742379720985a8d0856d636c6d733f82184`. All generated study chapters and affected SVG captions were regenerated from the corrected manifest.
 
-## What was checked
+## Latest engine method
 
-- All 130 recovered scores parse legally, retain their game URLs and have matching canonical move hashes.
-- All 22 diagram positions match their specified game and ply exactly, have valid FENs, and use White's orientation.
-- Each study chapter preserves the recorded main-line prefix and a short recorded continuation. Editorial analysis branches are labelled and independently replayed for legality. Study results are `*`; actual results remain in the full corpus.
-- All repository PGNs, including analysis variations, are checked by the London audit script.
-- Local links, guide-map anchors, image references and complete initial-position prose lines are checked. Linked video passage times are bounded by the recovered video metadata; this does not establish a frame match.
-- Generated SVGs retain Cburnett/python-chess notices. Contact sheets are used to inspect piece placement, orientation, arrows, coordinates and legibility.
+**Stockfish 18**, python-chess distribution **1.999** / chess module **1.11.2**. Two threads, **512 MiB hash**, cleared before each search. **MultiPV 1** concentrates each search on its strongest line; see the [Stockfish analysis settings](https://official-stockfish.github.io/docs/stockfish-wiki/Stockfish-FAQ.html#optimal-settings).
 
-Run the integrity check with `python3 scripts/check_london_system.py`. Regenerate boards and excerpts with `python3 scripts/render_london_system_diagrams.py`. The fetch script uses only Python's standard library; rendering and checking use the existing python-chess dependency.
+Every search was started with the **complete source-game move history**, rather than an isolated FEN. This preserves castling rights, move counters and repetition history. Candidate moves were tested with separate restricted searches. No external tablebases were configured.
 
-The complete repository replay passed for **1,580 games/study chapters and 119,326 legal moves including variations**. The new slice passed **98 local link/anchor/image checks, 54 bounded video passage timestamps and 15 complete initial-position prose lines**. A fresh public-API retrieval reproduced the published 130-game file byte for byte (SHA-256 `ca61dda5bf1d4059439db5eb93423742379720985a8d0856d636c6d733f82184`). All 22 boards were rendered and visually reviewed, with caption corrections made where the displayed position included Black's next move.
-
-## Engine method and limits
-
-**Stockfish 18**, python-chess distribution **1.999** / chess module **1.11.2**. Two engine threads. The broad screen used 128 MiB hash; focused searches used 256 MiB and cleared the hash before each position. No external tablebase path was configured.
-
-| Pass | Scope | Search limit |
+| Pass | Scope | Per-search node cap |
 | --- | --- | --- |
-| White opening screen | First 15 White moves per selected game, or fewer for shorter games: **1,933 move instances, 1,472 distinct position/move pairs** | 50,000 nodes for best play and 50,000 nodes restricted to the actual move |
-| Diagram review | All 22 displayed positions | 2,000,000 nodes, MultiPV 3 |
-| Candidate comparisons | Bxh7+, Rxh5, the poisoned-pawn Nb5, c4 versus Ra1, and Bxd4 in the fianchetto loss | 5,000,000 nodes per restricted candidate |
-| Deeper diagram review | Greek gift, rook sacrifice, poisoned-pawn decision, and central counterplay | 10,000,000 nodes, MultiPV 3; achieved depths **22–24** |
-| Additional checks | Game 31 before and after Nb5, the defense to Bxh7+, and Black's replies after the gambit's c4 | 5,000,000 nodes except **10,000,000** after Nb5 |
+| Diagram recheck | All 22 displayed positions | 10,000,000 nodes |
+| Focused tactical review | 18 searches covering candidate comparisons, king escapes, mating and defensive resources | 30,000,000–100,000,000 nodes |
 
-Scores use **White's perspective**: positive favors White. Centipawns divided by 100 give the pawn-unit evaluation scale, not a material count. Deep records store mate separately; the broad screen uses a ±100000 mate sentinel that must not be interpreted as ordinary centipawns. Short PVs are preserved when the engine returns them; no continuation has been fabricated to make a line appear complete.
+Total: **40 searches and 1,400,047,794 searched nodes**. Node limits are caps: the forced-mate search after ...Kh8 finished after 23,103 nodes; the other searches reached their requested budgets. The [raw record](london-system-second-review.json) includes source positions, candidate restrictions, full returned PVs, depths, actual node counts, engine identity and binary hash. [The review script](../scripts/review_london_tactics.py) can reproduce or resume the searches. Multiple threads can change exact scores and move order on another run.
 
-The small opening screen is a diagnostic, not an opening-theory verdict. Node-limited searches, multiple threads and hash state can change scores and move rankings. The deeper checks support the concrete qualifications below. This is **not a full-game audit of every middlegame or ending**, an exhaustive repertoire against every legal defense, or a proof that the teacher's every move is best.
+Positive scores below favor **White**; divide centipawns by 100 for the displayed engine scale. These are normalized evaluations, not a count of material or a human win probability. A mating score is recorded separately. Search depth is selective, not proof that every line has been exhausted to that ply. In particular, the high reported depth on the already-forced mate must not be read as an exhaustive 245-ply proof.
 
-## Findings that changed the guide
+This is a focused verification of the guide's positions and tactical advice. It is **not a full-game engine annotation of every move in all 130 games**, an exhaustive repertoire, or a mathematical proof of every strategic statement. Short returned PVs are preserved without inventing missing moves.
 
-### 1. A symmetric queen-pressure win contains a serious opening error
+## Tactical findings
 
-Game 31, after:
+### Game 31: the symmetric Nb5 jump remains a serious mistake
+
+After:
 
 `1.d4 d5 2.Bf4 Bf5 3.c4 e6 4.Nc3 Nf6 5.e3 c5 6.Qb3 Qb6 7.cxd5 exd5`
 
-The game move **8.Nb5?** is not a general-purpose refutation of ...Qb6. Before the move, a 5-million-node search prefers **8.Qxb6**, returning **+0.86** at depth 21. After Nb5, the 10-million-node search finds **8...c4!** and returns **−3.78** at depth 23.
+| Search | Limit | White evaluation |
+| --- | --- | --- |
+| Before 8.Nb5: best line begins **8.Qxb6** | 50M | **+0.86** |
+| After **8.Nb5?**: best defense begins **8...c4!** | 50M | **−3.81** |
+| Restrict Black to the game's **8...Na6** | 50M | **−1.32** |
 
-One illustrative line is `9.Nd6+ Qxd6 10.Bxd6 cxb3 11.Bxf8 Rxf8 12.axb3`. Black emerges a piece up for a pawn. The knight's tempting fork does not save the white queen from the c-pawn.
+The checked illustration **8...c4 9.Nd6+ Qxd6 10.Bxd6 cxb3 11.Bxf8 Rxf8 12.axb3** leaves Black an extra knight for one pawn. The integrity checker verifies the complete material balance. The game result does not establish that Nb5 was sound; even ...Na6 left Black good play with accurate subsequent moves.
 
-Even the game's **8...Na6** is evaluated in Black's favor (**−1.30** in that same MultiPV search with best subsequent play). White eventually won; the result does not certify Nb5. The guide explicitly attaches this warning to the general queenside-pressure lesson.
+### Game 39: the Greek gift gives away White's advantage
 
-### 2. The Greek-gift example is not a forced win
+| Search | Limit | White evaluation |
+| --- | --- | --- |
+| Before the sacrifice: best line begins **9.Qe2** | 100M | **+1.03** |
+| Restrict White to **9.Bxh7+** | 100M | **−0.01** |
+| After 9.Bxh7+ Kxh7 10.Ng5+: unrestricted defense selects **10...Kh6** | 100M | **+0.05** |
+| Restrict that defense to **10...Kg6** | 100M | **0.00** |
+| Restrict that defense to the game's **10...Kh8** | 50M | **Mate in 2 for White** |
 
-Game 39, after **8...O-O**. The actual game continues **9.Bxh7+ Kxh7 10.Ng5+ Kh8** and ends 1-0.
+One balanced illustrative branch is **10...Kg6 11.Qc2+ f5 12.O-O-O Qd6 13.Ndf3**. It is a sample line, not a forced sequence. Both forward king escapes require attention.
 
-The unrestricted 10-million-node search before the sacrifice prefers **9.Qe2**, giving **+1.03** at depth 23. A 5-million-node restricted Bxh7+ search gives only **+0.26**. A separate 5-million-node search after Bxh7+ identifies **9...Kxh7 10.Ng5+ Kg6!**, with an approximately balanced **+0.05** evaluation at depth 22. An illustrative continuation is **11.Qc2+ f5 12.Ndf3**.
+After the game move **10...Kh8**, the finish is **11.Qh5+ Kg8 12.Qh7#**. The integrity checker independently verifies that Kg8 is Black's only legal reply to Qh5+ and that Qh7 is checkmate.
 
-The forward king escape is the important defensive resource. The guide does not teach Bxh7+ here as forced mate or even as the best way to preserve White's opening advantage.
+### Game 66: Rxh5 is supported, and Bd3 is not an immediate losing error
 
-### 3. A sacrifice from a lost game is supported
+After **17...Nh5**, the 100M-node restricted search supports **18.Rxh5**, evaluating the position at **+2.59** for White. An illustrative attacking continuation is **18...gxh5 19.Bxh7+ Kg7 20.Qxh5 Nxe5 21.fxe5 Rh8 22.Rf1**.
 
-Game 66, after **17...Nh5**. The game's attack continues **18.Rxh5 gxh5 19.Bxh7+ Kg7 20.Bd3**, and White eventually loses on time.
+At the position after **19...Kg7**, separate 50M-node searches give **+2.52** for **20.Qxh5** and **+1.38** for the game's **20.Bd3**. The latter still favors White. The eventual loss on time does not refute the sacrifice, and these searches do not claim a forced mate.
 
-The 10-million-node search chooses **18.Rxh5** and returns **+2.04** at depth 22. Its illustrative continuation includes **20.Qxh5**, then **20...Nxe5 21.fxe5 Rh8 22.Rf1**. The restricted 5-million-node check also supports Rxh5 (**+2.23**). These results favor White but do not establish a forced mate. The guide separates the sound attacking commitment from the game's subsequent decisions and clock outcome.
+### Games 112 and 123: distinguish a queen blunder from the serious defense
 
-### 4. The poisoned-pawn win and loss must be read together
-
-Games 112 and 123 share:
+Both games share:
 
 `1.d4 Nf6 2.Bf4 c5 3.e3 Qb6 4.Nc3 Qxb2 5.Nb5 Nd5 6.Rb1 Qxa2 7.Ra1 Qb2 8.Rb1`
 
-In game 112, **8...Qc3+?** loses the queen. In game 123, **8...Qa2** poses a more serious practical problem. At that latter position, the deeper search favors **9.Ra1**, giving **+0.39** at depth 24. Restricted 5-million-node comparisons give **+0.23** for Ra1 and **−0.84** for the immediate **9.c4**.
+After game 112's **8...Qc3+?**, the 30M-node search selects **9.Nxc3**, returning **+3.97**. The legal recorded continuation includes **9...Nxc3 10.Qc1 Nxb1 11.Qxb1**. This punishes a queen blunder; it does not refute the original pawn grab.
 
-After c4, a separate search finds **9...Qa5+** with **−0.79** at depth 22. The game's **9...Nxf4** permits a return to a queen-chase line with Ra1 and is evaluated at approximately equality in that additional search. White's eventual loss therefore should not be explained as c4 forcing a loss or Nxf4 winning by force.
+After game 123's **8...Qa2**:
 
-The guide presents a concrete gambit and its repetition resource, not a universal punishment of ...Qxb2.
+| Candidate or reply | Limit | White evaluation |
+| --- | --- | --- |
+| **9.Ra1** | 100M | **+0.54** |
+| **9.c4** | 100M | **−0.41** |
+| After c4, unrestricted Black search selects **9...Qa5+** | 50M | **−0.60** |
+| After c4, restrict Black to the game's **9...Nxf4** | 50M | **0.00** |
 
-### 5. A structural concession is not an immediate blunder
+The scores support the preference for Ra1 and identify ...Qa5+ as a strong answer to c4, but they do not establish a forced loss after c4 or a forced win after ...Nxf4.
 
-Game 114, after **12...Nd4**. The unrestricted 10-million-node search prefers **13.Bd5**, with **+0.10** at depth 24. Restricting White to the game's **13.Bxd4** gives **−0.12** at depth 24 in a 5-million-node search. Both are approximately balanced positions at the tested limits.
+With full history, **9.Ra1 Qb2 10.Rb1 Qa2** produces the third occurrence of the position first reached after **6...Qxa2**. The integrity checker verifies that repetition. Black can choose another line; White is not guaranteed a draw by playing Ra1.
 
-The resulting passed d-pawn is strategically important, but the later checkmate does not establish that the bishop exchange loses immediately. The guide uses this game to teach respect for central counterplay and labels Bd5 as editorial analysis.
+### Game 114: the bishop exchange remains playable
+
+After **12...Nd4**, separate 50M-node searches give **+0.04** for **13.Bd5** and **−0.04** for **13.Bxd4**. Both are approximately balanced at the tested limit. Bd5 is a playable alternative, not a uniquely required move.
+
+The pawn after **13.Bxd4 exd4** is protected and advanced, but not passed. White still has c2, and Nc3 currently blocks c3. The later checkmate must not be attributed to this exchange as though it loses immediately.
+
+### Game 2: e4 allows a counterattack on d4
+
+At the displayed position after **5.e4**, the 10M-node recheck selects **5...Qxd4**, with **+1.10** for White. Its returned line continues **6.Qc2 Bd7 7.Nb5**. The guide now includes this counterattack and identifies e4 as an active pawn investment rather than an automatic material-winning attack on Bf5.
+
+## Integrity checks and reproduction
+
+[The integrity checker](../scripts/check_london_system.py) now verifies:
+
+- All **130 recovered games**, their preserved results, time controls, game links and canonical move hashes.
+- All **22 FEN/source-game matches**, all **674 SVG piece placements**, orientation, exact caption move labels, and agreement between guide captions and the manifest.
+- All **22 study excerpts**, their recorded main-line prefixes and every analysis variation.
+- **20 contextual tactical lines**, including lines that start midgame; material balance in the Nb5 illustration; the threefold repetition; the forced mating finish; half-open files; the non-passed d4-pawn; and the isolated-d4 comparison.
+- All **15 complete initial-position prose lines**, both for legality and for matching an actual source-game prefix.
+- All **40 new engine records**, their source positions, restricted candidates and returned PV moves.
+- Every repository PGN and variation, plus local links, guide anchors, image paths and bounded video timestamps.
+
+The complete repository replay passes for **1,580 games/study chapters and 119,332 legal moves including variations**. All 22 boards were rendered and visually inspected again. The original game corpus is unchanged.
+
+```sh
+python3 scripts/render_london_system_diagrams.py
+python3 scripts/check_london_system.py
+python3 scripts/review_london_tactics.py --output sources/london-system-second-review.json
+```
+
+The engine script resumes already-completed jobs after checking their source hash, position, candidate and node limit. Use a fresh output path to recompute them. It requires a local Stockfish executable and accepts `--engine /path/to/stockfish`. The diagrams and critical sections can be run separately with `--section`.
+
+The [initial publication engine record](london-system-engine.json) is retained for traceability. Its smaller searches are superseded by the second review where the same claim was checked. The original opening screen covered the first 15 White moves of each selected game: **1,933 move instances and 1,472 distinct position/move pairs**, at 50,000 nodes for unrestricted and played-move searches. That screen was a diagnostic, not a full-game verdict.
